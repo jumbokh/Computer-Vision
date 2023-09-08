@@ -17,7 +17,7 @@ cv2_imshow(image)
 ```
 ### Notebooks
 * [Keras DL](https://github.com/jumbokh/ML-Class/blob/main/notebooks/Ch20_Keras_DL.ipynb)
-* [02_1_用CNN圖形辨識](https://github.com/jumbokh/ML-Class/blob/main/notebooks/02_1_%E7%94%A8CNN%E5%9C%96%E5%BD%A2%E8%BE%A8%E8%AD%98%EF%BC%88%E9%82%84%E6%98%AFMNIST)modeify.ipynb)
+* [02_1_用CNN圖形辨識](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/02_1_%E7%94%A8CNN%E5%9C%96%E5%BD%A2%E8%BE%A8%E8%AD%98-%E9%82%84%E6%98%AFMNIST.ipynb)
 * [Lab4 bad](https://github.com/jumbokh/ML-Class/blob/main/notebooks/Lab4_bad.ipynb)
 * [cifar10-tensorflow](https://github.com/jumbokh/ML-Class/blob/main/notebooks/cifar10-tensorflow.ipynb)
 * [image classification](https://github.com/jumbokh/csu1111-class/blob/main/computerVision/notebooks/image_classification.ipynb)
