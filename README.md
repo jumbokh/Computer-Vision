@@ -32,6 +32,7 @@ cv2_imshow(image)
 * [YOLO 官網](https://pjreddie.com/darknet/yolo/)
 * [使用Haar Cascade 进行人脸识别](https://blog.csdn.net/wutao1530663/article/details/78294349)
 * [Image dataset of Symbols](https://www.kaggle.com/datasets/kentvejrupmadsen/letter-images-dataset?resource=download)
+* [AlphaNum Dataset](https://www.kaggle.com/datasets/lopalp/alphanum)
 ### 參考文件
 * [tensorflow2](https://github.com/jumbokh/csu1111-class/blob/main/computerVision/tensorflow2.pdf)
 * [動手學深度學習](https://github.com/jumbokh/csu1111-class/blob/main/computerVision/%E5%8B%95%E6%89%8B%E5%AD%B8%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92.pdf)
