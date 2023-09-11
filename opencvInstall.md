@@ -10,7 +10,7 @@
 執行:
 conda update conda
 conda env list
-conda create --name cv2 python=3.5
+conda create --name cv2 python=3.8
 conda activate cv2
 pip install opencv-python
 python -m pip install --upgrade --upgrade pip
