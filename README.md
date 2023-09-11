@@ -37,6 +37,7 @@ cv2_imshow(image)
 * [How Do Computers Store Images?](https://www.analyticsvidhya.com/blog/2021/03/grayscale-and-rgb-format-for-storing-images/)
 * [Leveraging Embeddings and Clustering Techniques in Computer Vision](https://blog.roboflow.com/embeddings-clustering-computer-vision-clip-umap/)
 * [Loading Data Using Numpy](https://www.kaggle.com/code/thomasqazwsxedc/loading-data-using-numpy)
+* [二值化黑白影像](https://steam.oxxostudio.tw/category/python/ai/opencv-threshold.html)
 ### 參考文件
 * [tensorflow2](https://github.com/jumbokh/csu1111-class/blob/main/computerVision/tensorflow2.pdf)
 * [動手學深度學習](https://github.com/jumbokh/csu1111-class/blob/main/computerVision/%E5%8B%95%E6%89%8B%E5%AD%B8%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92.pdf)
