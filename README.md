@@ -46,3 +46,7 @@ cv2_imshow(image)
 #### 實驗材料
 * [彩色球](https://drive.google.com/drive/folders/1zDaFGZ5le9AYqT0UhLoMsCDrJJtWu6j3?usp=share_link)
 * [AI web -- Teachable Machine](https://teachablemachine.withgoogle.com/)
+#### 書目
+* ![1921](https://github.com/jumbokh/Computer-Vision/blob/main/images/DM1921_3D_official.jpg)
+* ![2201](https://github.com/jumbokh/Computer-Vision/blob/main/images/DM2201_3D-500.jpg)
+* ![2311](https://github.com/jumbokh/Computer-Vision/blob/main/images/DM2311_%E7%AB%8B%E9%AB%94%E6%9B%B8_500x500.jpg)
