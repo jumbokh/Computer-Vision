@@ -1,4 +1,5 @@
 ### Windows install
+* [anaconda](https://www.anaconda.com/download)
 ### 直接下載安裝
 * [官網](https://opencv.org/releases/)
 * [參考](https://zhuanlan.zhihu.com/p/629146861)
