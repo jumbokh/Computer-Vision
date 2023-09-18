@@ -1,5 +1,6 @@
 "# Computer-Vision" 
 ### [opencv Window 程式安裝說明](https://github.com/jumbokh/Computer-Vision/blob/main/docs/opencv_windows.pptx)
+### git clone https://github.com/jumbokh/Computer-Vision
 ```
 週次 1-2：OpenCV 影像處理基礎 
 影像讀取與顯示 
