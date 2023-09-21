@@ -45,6 +45,7 @@ cv2_imshow(image)
 * [二值化黑白影像](https://steam.oxxostudio.tw/category/python/ai/opencv-threshold.html)
 * [直方圖與長條圖](https://www.finereport.com/tw/data-analysis/how-to-make-histogram.html)
 * [train_yolo_with_custom_dataset_on_colab_101](https://github.com/wallat/train_yolo_with_custom_dataset_on_colab_101/tree/master)
+* [YOLOv4手把手實作應用](https://suyenting.github.io/post/yolov4-hands-on/)
 ### 參考文件
 * [tensorflow2](https://github.com/jumbokh/csu1111-class/blob/main/computerVision/tensorflow2.pdf)
 * [動手學深度學習](https://github.com/jumbokh/csu1111-class/blob/main/computerVision/%E5%8B%95%E6%89%8B%E5%AD%B8%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92.pdf)
