@@ -45,6 +45,13 @@ cv2_imshow(image)
 ### ubuntu virtual box
 * [Oracle virtual box download](https://www.virtualbox.org/wiki/Downloads)
 * [vm download](https://sourceforge.net/projects/osboxes/files/v/vb/55-U-u/22.10/64bit.7z/download)
+```
+Username: osboxes
+Password: osboxes.org
+Gust Tools: Installed
+Keyboard Layout: US (Qwerty)
+VMware Compatibility: Version 10+
+```
 ### 參考網頁
 * [蔡炎龍老師MOOC](https://github.com/yenlung/Deep-Learning-MOOC)
 * [蔡炎龍老師 深度學習基礎](https://github.com/jumbokh/Deep-Learning-Basics)
