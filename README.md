@@ -12,13 +12,12 @@ print("img.shape=",img.shape)
 print("rst.shape=",rst.shape)
 ```
 ```
-週次 1-2：OpenCV 影像處理基礎 
-影像讀取與顯示 
-色彩空間轉換 
-影像平滑與銳化 
-邊緣檢測 
-形態學運算 
-特徵檢測與配對
+週次 3-4：YOLO 物件偵測
+物件偵測概述與挑戰
+YOLO 簡介與架構
+模型訓練與資料集準備
+偵測結果後處理與後續應用
+YOLO 在實務中的應用
 ```
 * [Week 1,2 Source](https://github.com/jumbokh/Computer-Vision/blob/main/sources/wk1-2.zip)
 * [Week 2 source](https://github.com/jumbokh/Computer-Vision/blob/main/sources/0918.zip)
