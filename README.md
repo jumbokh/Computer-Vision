@@ -32,7 +32,7 @@ from google.colab.patches import cv2_imshow
 cv2_imshow(image)
 ```
 ### Notebooks
-* [Keras DL](https://github.com/jumbokh/ML-Class/blob/main/notebooks/Ch20_Keras_DL.ipynb)
+* [Keras DL](https://github.com/jumbokh/ML-Class/blob/main/notebooks/Ch20_Keras_DL.ipynb)https://github.com/jumbokh/rpi_class/tree/master/lite_install
 * [02_1_用CNN圖形辨識](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/02_1_%E7%94%A8CNN%E5%9C%96%E5%BD%A2%E8%BE%A8%E8%AD%98-%E9%82%84%E6%98%AFMNIST.ipynb)
 * [Lab4 bad](https://github.com/jumbokh/ML-Class/blob/main/notebooks/Lab4_bad.ipynb)
 * [cifar10-tensorflow](https://github.com/jumbokh/ML-Class/blob/main/notebooks/cifar10-tensorflow.ipynb)
@@ -52,6 +52,7 @@ Gust Tools: Installed
 Keyboard Layout: US (Qwerty)
 VMware Compatibility: Version 10+
 ```
+### [ubuntu setup](https://github.com/jumbokh/rpi_class/tree/master/lite_install)
 ### 參考網頁
 * [蔡炎龍老師MOOC](https://github.com/yenlung/Deep-Learning-MOOC)
 * [蔡炎龍老師 深度學習基礎](https://github.com/jumbokh/Deep-Learning-Basics)
