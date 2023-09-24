@@ -23,6 +23,8 @@ print("rst.shape=",rst.shape)
 * [Week 1,2 Source](https://github.com/jumbokh/Computer-Vision/blob/main/sources/wk1-2.zip)
 * [Week 2 source](https://github.com/jumbokh/Computer-Vision/blob/main/sources/0918.zip)
 * [Week 3 09/23](https://github.com/jumbokh/Computer-Vision/tree/main/sources/0923)
+* ![grey](https://github.com/jumbokh/Computer-Vision/blob/main/images/wall-greyscale.png)
+* ![hist](https://github.com/jumbokh/Computer-Vision/blob/main/images/histogram.png)
 ### [關於執行原則](https://learn.microsoft.com/zh-tw/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3)
 * 開啟 power-shell 執行: set-executionpolicy remotesigned
 ### CV2 in Google
