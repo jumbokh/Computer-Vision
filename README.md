@@ -42,6 +42,9 @@ cv2_imshow(image)
 * [YOLO_Keras_Test](https://github.com/jumbokh/nknu-class/blob/main/CNN/YOLO/08_06_YOLO_Keras_Test.ipynb)
 * [CNN Notebooks](https://github.com/jumbokh/nknu-class/tree/main/CNN/notebooks)
 * [Kaggle: Download Dataset](https://www.kaggle.com/code/surajdidwania/dataset-download)
+### ubuntu virtual box
+* [Oracle virtual box download](https://www.virtualbox.org/wiki/Downloads)
+* [vm download](https://sourceforge.net/projects/osboxes/files/v/vb/55-U-u/22.10/64bit.7z/download)
 ### 參考網頁
 * [蔡炎龍老師MOOC](https://github.com/yenlung/Deep-Learning-MOOC)
 * [蔡炎龍老師 深度學習基礎](https://github.com/jumbokh/Deep-Learning-Basics)
