@@ -43,7 +43,8 @@ cv2_imshow(image)
 * [Kaggle: Download Dataset](https://www.kaggle.com/code/surajdidwania/dataset-download)
 ### ubuntu virtual box
 * [Oracle virtual box download](https://www.virtualbox.org/wiki/Downloads)
-* [vm download](https://sourceforge.net/projects/osboxes/files/v/vb/55-U-u/22.10/64bit.7z/download)
+* [ubuntu download](https://www.ubuntu-tw.org/modules/tinyd0/)
+* [python3.8 install](https://www.linuxcapable.com/install-python-3-8-on-ubuntu-linux/)
 ```
 Username: osboxes
 Password: osboxes.org
