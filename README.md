@@ -35,6 +35,12 @@ YOLO 在實務中的應用
 from google.colab.patches import cv2_imshow
 cv2_imshow(image)
 ```
+### Darknet 
+* cv2 not found
+```
+/src/image_opencv.cpp:5:10: fatal error: opencv2/opencv.hpp: 沒有此一檔案或目錄
+```
+* [debug opencv for darknet not found](https://github.com/jumbokh/Computer-Vision/blob/main/darknet-opencv.md)
 ### Notebooks
 * [Keras DL](https://github.com/jumbokh/ML-Class/blob/main/notebooks/Ch20_Keras_DL.ipynb)https://github.com/jumbokh/rpi_class/tree/master/lite_install
 * [02_1_用CNN圖形辨識](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/02_1_%E7%94%A8CNN%E5%9C%96%E5%BD%A2%E8%BE%A8%E8%AD%98-%E9%82%84%E6%98%AFMNIST.ipynb)
