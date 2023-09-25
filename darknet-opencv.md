@@ -1,3 +1,5 @@
+### from: https://github.com/pjreddie/darknet/issues/1886
+```
 Just inside of Makefile
 
 change
@@ -287,3 +289,4 @@ to
     if(w) cap->set(CAP_PROP_FRAME_WIDTH, w);
     if(h) cap->set(CAP_PROP_FRAME_HEIGHT, w);
     if(fps) cap->set(CAP_PROP_FPS, w);
+```
