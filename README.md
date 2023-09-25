@@ -26,7 +26,11 @@ YOLO 在實務中的應用
 * ![hist](https://github.com/jumbokh/Computer-Vision/blob/main/images/histogram.png)
 ### [關於執行原則](https://learn.microsoft.com/zh-tw/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3)
 * 開啟 power-shell 執行: set-executionpolicy remotesigned
-### CV2 in Google
+### python version switch
+* sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.10 1
+* sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 2
+* sudo update-alternatives --config python 
+### CV2 in Google 
 ```
 from google.colab.patches import cv2_imshow
 cv2_imshow(image)
