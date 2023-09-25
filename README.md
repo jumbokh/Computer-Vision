@@ -1,5 +1,6 @@
 "# Computer-Vision" 
 ### [opencv Window 程式安裝說明](https://github.com/jumbokh/Computer-Vision/blob/main/docs/opencv_windows.pdf)
+### [AlphaNum dataset](https://www.kaggle.com/datasets/lopalp/alphanum)
 ### git clone https://github.com/jumbokh/Computer-Vision
 ### pip install matplotlib
 ```
