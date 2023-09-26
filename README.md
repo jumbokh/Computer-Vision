@@ -1,4 +1,4 @@
-# [HW1](https://github.com/jumbokh/Computer-Vision/blob/main/HomeWork1.md)
+# [HW1: DeadLine 2023/10/30](https://github.com/jumbokh/Computer-Vision/blob/main/HomeWork1.md)
 ### [opencv Window 程式安裝說明](https://github.com/jumbokh/Computer-Vision/blob/main/docs/opencv_windows.pdf)
 ### [AlphaNum dataset](https://www.kaggle.com/datasets/lopalp/alphanum)
 ### git clone https://github.com/jumbokh/Computer-Vision
