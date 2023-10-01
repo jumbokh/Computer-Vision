@@ -31,7 +31,7 @@ YOLO 在實務中的應用
 * step 4: [check gpu](https://medium.com/@zera.tseng888/%E5%9C%A8windows11%E7%92%B0%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%9Dcuda%E8%88%87cudnn-dd85575187ae)
       * Win-R: Nvidia-smi
       * ![Display](https://github.com/jumbokh/Computer-Vision/blob/main/images/nvidia.png)
-      * [Nvidia driver & sdk](https://medium.com/@zera.tseng888/%E5%9C%A8windows11%E7%92%B0%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%9Dcuda%E8%88%87cudnn-dd85575187ae)
+      * [Nvidia driver sdk](https://medium.com/@zera.tseng888/%E5%9C%A8windows11%E7%92%B0%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%9Dcuda%E8%88%87cudnn-dd85575187ae)
       * [Download Nvidia GPU toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local)
 * [Week 1,2 Source](https://github.com/jumbokh/Computer-Vision/blob/main/sources/wk1-2.zip)
 * [Week 2 source](https://github.com/jumbokh/Computer-Vision/blob/main/sources/0918.zip)
