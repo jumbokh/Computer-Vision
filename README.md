@@ -44,8 +44,6 @@ YOLO 在實務中的應用
 * 開啟 power-shell 執行: set-executionpolicy remotesigned
 ### opencv_480.dll not found
 ```
-34
-
 Under windows you can copy it from:
 
 <your install directory>\opencv30\build\x64\vc12\bin
