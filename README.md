@@ -42,6 +42,18 @@ YOLO 在實務中的應用
 * ![hist](https://github.com/jumbokh/Computer-Vision/blob/main/images/histogram.png)
 ### [關於執行原則](https://learn.microsoft.com/zh-tw/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3)
 * 開啟 power-shell 執行: set-executionpolicy remotesigned
+### opencv_480.dll not found
+```
+34
+
+Under windows you can copy it from:
+
+<your install directory>\opencv30\build\x64\vc12\bin
+And put it in your Visual Studio solution (I assume you are using a x64/Release configuration):
+
+<your solution directory>\x64\Release
+Or you you can add the above OpenCV to your PATH environment variable
+```
 ### python version switch
 * sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.10 1
 * sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 2
