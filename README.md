@@ -22,6 +22,7 @@ YOLO 簡介與架構
 YOLO 在實務中的應用
 ```
 ### Darknet for Windows
+#### Need Help? Read: [YOLO v4 建置心得 -- Windows 環境](https://ithelp.ithome.com.tw/articles/10231508)
 * step 1: Download opencv c++ Aource:
       * [opencv source](https://opencv.org/releases/)
 * step 2: Download Yolo4 c++ code:
@@ -33,7 +34,7 @@ YOLO 在實務中的應用
       * ![Display](https://github.com/jumbokh/Computer-Vision/blob/main/images/nvidia.png)
       * [Nvidia driver sdk](https://medium.com/@zera.tseng888/%E5%9C%A8windows11%E7%92%B0%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%9Dcuda%E8%88%87cudnn-dd85575187ae)
       * [Download Nvidia GPU toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local)
-### Need Help? Read: [YOLO v4 建置心得 -- Windows 環境](https://ithelp.ithome.com.tw/articles/10231508)
+
 * [Week 1,2 Source](https://github.com/jumbokh/Computer-Vision/blob/main/sources/wk1-2.zip)
 * [Week 2 source](https://github.com/jumbokh/Computer-Vision/blob/main/sources/0918.zip)
 * [Week 3 09/23](https://github.com/jumbokh/Computer-Vision/tree/main/sources/0923)
