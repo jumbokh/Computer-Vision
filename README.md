@@ -21,6 +21,17 @@ YOLO 簡介與架構
 偵測結果後處理與後續應用
 YOLO 在實務中的應用
 ```
+### Darknet for Windows
+* step 1: Download opencv c++ Aource:
+      * [opencv source](https://opencv.org/releases/)
+* step 2: Download Yolo4 c++ code:
+      * [Alexey Bochkovskiy](https://github.com/AlexeyAB/darknet)
+* step 3: Download visual studio community last version
+      * [vs community](https://visualstudio.microsoft.com/zh-hant/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&passive=false&cid=2030)
+* step 4: [check gpu](https://medium.com/@zera.tseng888/%E5%9C%A8windows11%E7%92%B0%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%9Dcuda%E8%88%87cudnn-dd85575187ae)
+      * Win-R: Nvidia-smi
+      * ![Display](https://github.com/jumbokh/Computer-Vision/blob/main/images/nvidia.png)
+      * [Nvidia driver & sdk](https://medium.com/@zera.tseng888/%E5%9C%A8windows11%E7%92%B0%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%9Dcuda%E8%88%87cudnn-dd85575187ae)
 * [Week 1,2 Source](https://github.com/jumbokh/Computer-Vision/blob/main/sources/wk1-2.zip)
 * [Week 2 source](https://github.com/jumbokh/Computer-Vision/blob/main/sources/0918.zip)
 * [Week 3 09/23](https://github.com/jumbokh/Computer-Vision/tree/main/sources/0923)
