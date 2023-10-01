@@ -3,6 +3,7 @@
 ### [AlphaNum dataset](https://www.kaggle.com/datasets/lopalp/alphanum)
 ### git clone https://github.com/jumbokh/Computer-Vision
 ### pip install matplotlib
+* [推薦Python初學者的好用工具：Google Colab](https://www.bnext.com.tw/article/52618/recommand-to-programming-language-learner-python-google-colab)
 ```
 import cv2
 img=cv2.imread("test.bmp")
@@ -41,6 +42,7 @@ cv2_imshow(image)
 ```
 /src/image_opencv.cpp:5:10: fatal error: opencv2/opencv.hpp: 沒有此一檔案或目錄
 ```
+* [Yolo：基於深度學習的物件偵測 (含YoloV3)](https://www.mropengate.com/2018/06/yolo-yolov3.html)
 * [debug opencv for darknet not found](https://github.com/jumbokh/Computer-Vision/blob/main/darknet-opencv.md)
 * [如何在 Colab 安裝 Darknet 框架訓練 YOLO v3 物件辨識並且最佳化 Colab 的訓練流程](https://hi-upchen.medium.com/%E5%A6%82%E4%BD%95%E5%9C%A8-colab-%E5%AE%89%E8%A3%9D-darknet-%E6%A1%86%E6%9E%B6%E8%A8%93%E7%B7%B4-yolo-v3-%E7%89%A9%E4%BB%B6%E8%BE%A8%E8%AD%98%E4%B8%A6%E4%B8%94%E6%9C%80%E4%BD%B3%E5%8C%96-colab-%E7%9A%84%E8%A8%93%E7%B7%B4%E6%B5%81%E7%A8%8B-e5ded7bbab00)
     * [colab code](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/Copy_of_Yolov3_using_Darknet_on_Colab.ipynb)
