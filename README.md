@@ -116,6 +116,7 @@ VMware Compatibility: Version 10+
 * [鄉下老師 - 車牌辨識](https://blog.udn.com/mobile/yccsonar/179871458?fbclid=IwAR2MbzmN8VdU6PYTfhPK9rB41JwKRL7CmOxKOpK0oVyVjstS5cvdMgg4qVo)
 * [在windows安裝YOLO darknet - GPU 2022 更新](https://ithelp.ithome.com.tw/articles/10231950)
 ### 參考文件
+* [手把手教你深度學習實務](https://github.com/jumbokh/Computer-Vision/blob/main/docs/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E5%AF%A6%E5%8B%99.pdf)
 * [tensorflow2](https://github.com/jumbokh/csu1111-class/blob/main/computerVision/tensorflow2.pdf)
 * [動手學深度學習](https://github.com/jumbokh/csu1111-class/blob/main/computerVision/%E5%8B%95%E6%89%8B%E5%AD%B8%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92.pdf)
 * [深度學習最佳入門邁向AI專題實戰 ppt](https://github.com/jumbokh/csu1111-class/blob/main/computerVision/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E6%9C%80%E4%BD%B3%E5%85%A5%E9%96%80%E9%82%81%E5%90%91AI%E5%B0%88%E9%A1%8C%E5%AF%A6%E6%88%B0_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90_2_V1.pptx)
