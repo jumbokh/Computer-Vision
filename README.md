@@ -24,6 +24,7 @@ YOLO 在實務中的應用
 ```
 ### Darknet for Windows
 #### Need Help? Read: [YOLO v4 建置心得 -- Windows 環境](https://ithelp.ithome.com.tw/articles/10231508)
+#### [YOLO](https://github.com/jumbokh/Computer-Vision/blob/main/yolo.md)
 * step 1: Download opencv c++ Aource:
       * [opencv source](https://opencv.org/releases/)
 * step 2: Download Yolo4 c++ code:
