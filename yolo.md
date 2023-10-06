@@ -6,4 +6,5 @@
 ## https://roboflow.com/      <== 註冊
 ### [roboflow/notebooks](https://github.com/roboflow/notebooks)
 #### [How to Train YOLOv8 Object Detection on a Custom Dataset](https://blog.roboflow.com/how-to-train-yolov8-on-a-custom-dataset/)
+* [Youtube: YOLOv8: How to Train for Object Detection on a Custom Dataset](https://www.youtube.com/watch?v=wuZtUMEiKWY)
 
