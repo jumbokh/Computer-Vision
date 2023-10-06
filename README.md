@@ -54,6 +54,8 @@ And put it in your Visual Studio solution (I assume you are using a x64/Release 
 <your solution directory>\x64\Release
 Or you you can add the above OpenCV to your PATH environment variable
 ```
+##
+* [Howto train a model](https://github.com/jumbokh/Computer-Vision/blob/main/docs/How%20to%20train%20an%20object%20detection%20model%20easy%20for%20free.pdf)
 ### python version switch
 * sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.10 1
 * sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 2
