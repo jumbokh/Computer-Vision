@@ -1,3 +1,5 @@
+### YOLOv5 on kaggle: [yolov5](https://www.kaggle.com/code/ultralytics/yolov5/notebook)
+### YOLOv5 on Colab: [yolov5 tutorial](https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb)
 ## Darknet and YOLO
 ### [chrome擴充: Image Downloader](https://chrome.google.com/webstore/detail/image-downloader-imageye/agionbommeaifngbhincahgmoflcikhm/related?hl=en)
 ### [結合CGAN與YOLOv4 進行芒果等級分類,江伶琪](https://github.com/jumbokh/Computer-Vision/blob/main/docs/%E7%B5%90%E5%90%88CGAN%E8%88%87YOLOv4%20%E9%80%B2%E8%A1%8C%E8%8A%92%E6%9E%9C%E7%AD%89%E7%B4%9A%E5%88%86%E9%A1%9E.pdf)
