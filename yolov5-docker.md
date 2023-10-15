@@ -19,3 +19,13 @@ sudo docker pull ultralytics/yolov5
 sudo docker images
 sudo docker run -it ultralytics/yolov5
 ```
+### File copy
+```
+From DockerContainer To LocalMachine
+
+$docker cp containerId:/sourceFilePath/someFile.txt C:/localMachineDestinationFolder
+#
+From LocalMachine To DockerContainer
+
+$docker cp C:/localMachineSourceFolder/someFile.txt containerId:/containerDestinationFile
+```
