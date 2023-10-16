@@ -1,5 +1,6 @@
 # [HW1: DeadLine 2023/10/30](https://github.com/jumbokh/Computer-Vision/blob/main/HomeWork1.md)
 ### [labelImg install](https://livezingy.com/install-labelimg-on-win10-python3-6/)
+### [labelImg安裝及使用](https://hackmd.io/@osense-rd-public/H1ekDPqBt)
 ### [女神書](https://github.com/jumbokh/Computer-Vision/blob/main/docs/(%E5%A5%B3%E7%A5%9E%E6%9B%B8)%20Python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.pdf)
 ### [opencv Window 程式安裝說明](https://github.com/jumbokh/Computer-Vision/blob/main/docs/opencv_windows.pdf)
 ### [AlphaNum dataset](https://www.kaggle.com/datasets/lopalp/alphanum)
