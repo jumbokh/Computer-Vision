@@ -1,4 +1,5 @@
-## [Ultralytics YOLOv8 Docs](https://docs.ultralytics.com/yolov5/tutorials/neural_magic_pruning_quantization/)
+### [mean Average Precision (mAP) — 評估物體偵測模型好壞的指標](https://medium.com/lifes-a-struggle/mean-average-precision-map-%E8%A9%95%E4%BC%B0%E7%89%A9%E9%AB%94%E5%81%B5%E6%B8%AC%E6%A8%A1%E5%9E%8B%E5%A5%BD%E5%A3%9E%E7%9A%84%E6%8C%87%E6%A8%99-70a2d2872eb0)
+# [Ultralytics YOLOv8 Docs](https://docs.ultralytics.com/yolov5/tutorials/neural_magic_pruning_quantization/)
 ### YOLOv5 on kaggle: [yolov5](https://www.kaggle.com/code/ultralytics/yolov5/notebook)
 ### [Comet Logging and Visualization](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/Comet_and_YOLOv5.ipynb)
 ### YOLOv5 on Colab: [yolov5 tutorial](https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb)
