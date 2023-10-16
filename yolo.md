@@ -1,3 +1,4 @@
+## [Ultralytics YOLOv8 Docs](https://docs.ultralytics.com/yolov5/tutorials/neural_magic_pruning_quantization/)
 ### YOLOv5 on kaggle: [yolov5](https://www.kaggle.com/code/ultralytics/yolov5/notebook)
 ### [Comet Logging and Visualization](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/Comet_and_YOLOv5.ipynb)
 ### YOLOv5 on Colab: [yolov5 tutorial](https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb)
