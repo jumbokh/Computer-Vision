@@ -119,6 +119,7 @@ VMware Compatibility: Version 10+
 * [國產瑞昱ic 智慧儀表工業應用AMB82 Mini(Realtek Ameba Pro2) & HUB8735 (Detection Meter)](https://www.youtube.com/watch?v=CABstojtbTY)
 * [鄉下老師 - 車牌辨識](https://blog.udn.com/mobile/yccsonar/179871458?fbclid=IwAR2MbzmN8VdU6PYTfhPK9rB41JwKRL7CmOxKOpK0oVyVjstS5cvdMgg4qVo)
 * [在windows安裝YOLO darknet - GPU 2022 更新](https://ithelp.ithome.com.tw/articles/10231950)
+* [影像分割](https://www.geeksforgeeks.org/image-segmentation-using-pythons-scikit-image-module/)
 ### 參考文件
 * [手把手教你深度學習實務](https://github.com/jumbokh/Computer-Vision/blob/main/docs/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E5%AF%A6%E5%8B%99.pdf)
 * [tensorflow2](https://github.com/jumbokh/csu1111-class/blob/main/computerVision/tensorflow2.pdf)
