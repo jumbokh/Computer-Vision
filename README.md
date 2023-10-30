@@ -29,6 +29,7 @@ from google.colab.patches import cv2_imshow
 cv2_imshow(image)
 ```
 * [08_01 Sliding Window](https://drive.google.com/file/d/1elaR6vM2dmUrb7cUClld3P0U_DwfrB6L/view?usp=sharing)
+* [锚框：Anchor box综述](https://zhuanlan.zhihu.com/p/63024247)
 ### Darknet for Windows
 #### Need Help? Read: [YOLO v4 建置心得 -- Windows 環境](https://ithelp.ithome.com.tw/articles/10231508)
 #### [YOLO](https://github.com/jumbokh/Computer-Vision/blob/main/yolo.md)
