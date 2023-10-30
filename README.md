@@ -24,6 +24,7 @@ YOLO 簡介與架構
 偵測結果後處理與後續應用
 YOLO 在實務中的應用
 ```
+* [08_01 Sliding Window](https://drive.google.com/file/d/1elaR6vM2dmUrb7cUClld3P0U_DwfrB6L/view?usp=sharing)
 ### Darknet for Windows
 #### Need Help? Read: [YOLO v4 建置心得 -- Windows 環境](https://ithelp.ithome.com.tw/articles/10231508)
 #### [YOLO](https://github.com/jumbokh/Computer-Vision/blob/main/yolo.md)
