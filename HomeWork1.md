@@ -1,4 +1,4 @@
-jumbokh@gmail.com
+E-mail 至: jumbokh@gmail.com
 
 這個作業可以使用傳統的影像處理技術，如圖像分割和特徵提取，來識別Kaggle AlphaNum資料集中的數字部分。以下是一個基於影像處理的作業指南：
 
