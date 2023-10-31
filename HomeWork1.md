@@ -7,7 +7,7 @@ E-mail 至: jumbokh@gmail.com
 
 步驟：
 
-資料收集： 學生需要在Kaggle上下載AlphaNum資料集，這個資料集包含了包含字母和數字的圖片。
+資料收集： 學生需要在Kaggle上下載AlphaNum資料集，這個資料集包含了包含字母和數字的圖片。(https://drive.google.com/file/d/1XqBVXKU9NbkRTi57p-f3NjQFBJ3b4XbS/view?usp=drive_link)
 
 資料預處理： 將資料集切分為訓練集和測試集。對圖片進行預處理，包括調整圖片大小、灰度轉換、二值化等。
 
