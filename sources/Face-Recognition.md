@@ -16,6 +16,8 @@
 確定後關閉
   ```
 * dlib
+### Download dlib
+![pre build Dlib](https://github.com/jumbokh/Computer-Vision/blob/main/images/Download-dlib.png)
 ### http://dlib.net/compile.html
 ```
 cd examples
