@@ -1,3 +1,4 @@
+## pip install opencv-python numpy face-recognition pillow
 ## source: https://github.com/ageitgey/face_recognition
 ## Intrustion in CN-Chinese: https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md
 ### Prequirements:
