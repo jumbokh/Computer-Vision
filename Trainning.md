@@ -1,5 +1,5 @@
 ## 報告
-* ![]()
+* ![報告](https://github.com/jumbokh/Computer-Vision/blob/main/images/%E5%9C%8B%E7%AB%8B%E9%AB%98%E9%9B%84%E5%A4%A7%E5%AD%B8_1.jpg)
 ## 資料集建立簡介
 * [Google ML 基礎課程](https://developers.google.com/machine-learning/data-prep/construct/construct-intro?hl=zh-tw)
 * [Build Your Own Face Recognition Tool With Python](https://realpython.com/face-recognition-with-python/)
