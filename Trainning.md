@@ -5,6 +5,10 @@
 * [Python 與 OpenCV 基本讀取、顯示與儲存圖片教學](https://blog.gtwang.org/programming/opencv-basic-image-read-and-write-tutorial/)
 ## 智慧農業
 * [AI Go 芒果分類](https://github.com/jumbokh/Computer-Vision/tree/main/notebooks/AIMango)
+* 共享資料:
+    * [資料一](https://drive.google.com/file/d/1pCZw19OGsa0lgLlW4NydO2iOcNIqEIPK/view?usp=drive_link)
+    * [資料二](https://drive.google.com/file/d/10VpEmE89I-_ChiRvPllDg7gLY4j9BgdO/view?usp=drive_link)
+    * [資料三](https://drive.google.com/file/d/17k_A9mqIeYvGyq3bZF_RwQNWdwjYt_Pe/view?usp=drive_link)
 ## 儀表辨識
 * [WE-I Plus 智慧儀錶辨識](https://www.ideas-hatch.com/evb_share_detail.jsp?id=70)
 ## face_recognition
