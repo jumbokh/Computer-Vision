@@ -1,6 +1,9 @@
 ## 資料集建立簡介
 * [Google ML 基礎課程](https://developers.google.com/machine-learning/data-prep/construct/construct-intro?hl=zh-tw)
 * [Build Your Own Face Recognition Tool With Python](https://realpython.com/face-recognition-with-python/)
+* [How to quickly build your own dataset of images for Deep Learning](https://medium.com/mlearning-ai/how-to-quickly-build-your-own-dataset-of-images-for-deep-learning-1cf79073f1bd)
+* [How to Create a New Custom Dataset from Images](https://pub.towardsai.net/how-to-create-a-new-custom-dataset-from-images-9b95977964ab)
+     * [code](https://github.com/Uday47/How-to-create-a-new-custom-dataset-from-images-Medium-Article)
 ## opencv 影像存取
 * [Python 與 OpenCV 基本讀取、顯示與儲存圖片教學](https://blog.gtwang.org/programming/opencv-basic-image-read-and-write-tutorial/)
 * [resize](https://github.com/jumbokh/cv_face/blob/master/refers/resize.py)
@@ -22,6 +25,13 @@
 * [github](https://github.com/ageitgey/face_recognition)
 * [CN](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md)
 * [Book](https://github.com/jumbokh/cv_face/blob/master/refers/Face%20Recognition%20in%20Adverse%20Conditions.pdf)
+* ![Dataset Structure](https://github.com/jumbokh/Computer-Vision/blob/main/images/Dataset_struct.JPG)
+```
+python encode_faces.py --dataset dataset --encodings encodings.pickle
+python recognize_faces_image.py --encodings encodings.pickle --image examples/example_01.png
+```
+* [encode_faces](https://github.com/jumbokh/Computer-Vision/blob/main/sources/encode_faces.py)
+* [recognize face](https://github.com/jumbokh/Computer-Vision/blob/main/sources/recognize_faces_image.py)
 ## HAAR 辨識
 * [haar](https://github.com/jumbokh/cv_face/tree/master/opencv/day2/haarcascades)
 * [Haar Train](https://github.com/jumbokh/cv_face/blob/master/opencv/day3/HAAR_Train_win.md)
