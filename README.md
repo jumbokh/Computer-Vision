@@ -134,6 +134,7 @@ VMware Compatibility: Version 10+
 * [深度學習最佳入門邁向AI專題實戰 ppt](https://github.com/jumbokh/csu1111-class/blob/main/computerVision/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E6%9C%80%E4%BD%B3%E5%85%A5%E9%96%80%E9%82%81%E5%90%91AI%E5%B0%88%E9%A1%8C%E5%AF%A6%E6%88%B0_%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90_2_V1.pptx)
 * [到 nvidia 官網下載 CUDA](https://developer.nvidia.com/cuda-toolkit-archive)
 * [CSDN hw1 refers](https://blog.csdn.net/WZZ18191171661/article/details/96697999)
+* [F1700](https://github.com/jumbokh/cv_face/tree/master/opencv/Book)
 #### 實驗材料
 * [彩色球](https://drive.google.com/drive/folders/1zDaFGZ5le9AYqT0UhLoMsCDrJJtWu6j3?usp=share_link)
 * [AI web -- Teachable Machine](https://teachablemachine.withgoogle.com/)
