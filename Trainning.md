@@ -6,7 +6,7 @@
 ## 智慧農業
 * [AI Go 芒果分類](https://github.com/jumbokh/Computer-Vision/tree/main/notebooks/AIMango)
 ## 儀表辨識
-* [WE-I Plus智慧儀錶辨識](https://www.ideas-hatch.com/evb_share_detail.jsp?id=70)
+* [WE-I Plus 智慧儀錶辨識](https://www.ideas-hatch.com/evb_share_detail.jsp?id=70)
 ## face_recognition
 * [github](https://github.com/ageitgey/face_recognition)
 * [CN](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md)
