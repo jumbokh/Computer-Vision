@@ -24,6 +24,7 @@
 ## 儀表辨識
 * [WE-I Plus 智慧儀錶辨識](https://www.ideas-hatch.com/evb_share_detail.jsp?id=70)
 ## face_recognition
+* [ppt](https://github.com/jumbokh/Computer-Vision/blob/main/docs/Facial_Recognition_PPT.pdf)
 * [github](https://github.com/ageitgey/face_recognition)
 * [CN](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md)
 * [Book](https://github.com/jumbokh/cv_face/blob/master/refers/Face%20Recognition%20in%20Adverse%20Conditions.pdf)
