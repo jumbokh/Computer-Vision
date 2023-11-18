@@ -21,6 +21,7 @@
 ## face_recognition
 * [github](https://github.com/ageitgey/face_recognition)
 * [CN](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md)
+* [Book](https://github.com/jumbokh/cv_face/blob/master/refers/Face%20Recognition%20in%20Adverse%20Conditions.pdf)
 ## HAAR 辨識
 * [haar](https://github.com/jumbokh/cv_face/tree/master/opencv/day2/haarcascades)
 * [Haar Train](https://github.com/jumbokh/cv_face/blob/master/opencv/day3/HAAR_Train_win.md)
