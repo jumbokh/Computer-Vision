@@ -30,6 +30,7 @@
 python encode_faces.py --dataset dataset --encodings encodings.pickle
 python recognize_faces_image.py --encodings encodings.pickle --image examples/example_01.png
 ```
+* [github](https://github.com/adityaguptai/Face-Recognition/tree/master)
 * [encode_faces](https://github.com/jumbokh/Computer-Vision/blob/main/sources/encode_faces.py)
 * [recognize face](https://github.com/jumbokh/Computer-Vision/blob/main/sources/recognize_faces_image.py)
 ## HAAR 辨識
