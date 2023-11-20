@@ -50,7 +50,16 @@ python recognize_faces_image.py --encodings encodings.pickle --image examples/ex
 * [Pneumonia Detection by CNN with Data Augmentation](https://github.com/jumbokh/Computer-Vision/blob/main/sources/pneumonia-detection-by-cnn-with-data-augmen-1ddc59.ipynb)
 * [Data Preprocessing for Pneumonia Detection](https://github.com/jumbokh/Computer-Vision/blob/main/sources/data-preprocessing-for-pneumonia-detection-437411.ipynb)
 * [pneumonia-detection-by-vgg16](https://github.com/jumbokh/Computer-Vision/blob/main/sources/pneumonia-detection-by-vgg16.ipynb)
-## Data Augmentation 資料增強
+## 6. Data Augmentation 資料增強
 * [Data Augmentation 資料增強](https://chtseng.wordpress.com/2017/11/11/data-augmentation-%E8%B3%87%E6%96%99%E5%A2%9E%E5%BC%B7/)
 * [MNIST 模型強化](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/06_05_Data_Augmentation_MNIST.ipynb)
 * [pet 資料增補](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/06_06_Data_Augmentation_Pets.ipynb)
+## 7. 預先訓練的模型(Pre-trained Model)
+### 7.1 預先訓練模型的簡介
+* [完全採用 VGG 16 預先訓練的模型](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/07_01_Keras_applications.ipynb)
+### 7.2 採用完整的模型
+* [圖像相似度比較](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/07_02_%E5%9C%96%E5%83%8F%E7%9B%B8%E4%BC%BC%E5%BA%A6%E6%AF%94%E8%BC%83.ipynb)
+### 7.3 採用部分的模型
+* [自訂的輸入層及辨識層(Dense)](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/07_03_Flower_ResNet.ipynb)
+### 7.4 轉移學習(Transfer Learning)
+### 7.5 Batch Normalization層
