@@ -10,6 +10,7 @@
 * [Python 與 OpenCV 基本讀取、顯示與儲存圖片教學](https://blog.gtwang.org/programming/opencv-basic-image-read-and-write-tutorial/)
 * [resize](https://github.com/jumbokh/cv_face/blob/master/refers/resize.py)
 ## 智慧農業
+* [芒果分類](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/AIMango/mango-classification.ipynb)
 * [AI Go 芒果分類](https://github.com/jumbokh/Computer-Vision/tree/main/notebooks/AIMango)
 * 共享資料:
     * [資料一](https://drive.google.com/file/d/1pCZw19OGsa0lgLlW4NydO2iOcNIqEIPK/view?usp=drive_link)
@@ -44,3 +45,12 @@ python recognize_faces_image.py --encodings encodings.pickle --image examples/ex
 * [F1700旗標書簡報](https://github.com/jumbokh/cv_face/tree/master/opencv/Book)
 ## GCP vision
 * [Cloud Vision 電腦視覺實戰](https://github.com/jumbokh/gcp_class/tree/master/VISION)
+## 胸部x光辨識
+* [Pneumonia Detection](https://www.kaggle.com/competitions/pneumonia-detection/overview)
+* [Pneumonia Detection by CNN with Data Augmentation](https://github.com/jumbokh/Computer-Vision/blob/main/sources/pneumonia-detection-by-cnn-with-data-augmen-1ddc59.ipynb)
+* [Data Preprocessing for Pneumonia Detection](https://github.com/jumbokh/Computer-Vision/blob/main/sources/data-preprocessing-for-pneumonia-detection-437411.ipynb)
+* [pneumonia-detection-by-vgg16](https://github.com/jumbokh/Computer-Vision/blob/main/sources/pneumonia-detection-by-vgg16.ipynb)
+## Data Augmentation 資料增強
+* [Data Augmentation 資料增強](https://chtseng.wordpress.com/2017/11/11/data-augmentation-%E8%B3%87%E6%96%99%E5%A2%9E%E5%BC%B7/)
+* [MNIST 模型強化](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/06_05_Data_Augmentation_MNIST.ipynb)
+* [pet 資料增補](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/06_06_Data_Augmentation_Pets.ipynb)
