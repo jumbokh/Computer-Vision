@@ -65,7 +65,9 @@ python recognize_faces_image.py --encodings encodings.pickle --image examples/ex
 * [建立第一個轉移學習模型](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/05-1.%20%E5%BB%BA%E7%AB%8B%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AF%E7%9A%84%E5%85%B6%E4%BB%96%E6%96%B9%E5%BC%8F%E4%B8%A6%E5%AD%B8%E7%BF%92%E7%AC%AC%E4%B8%80%E5%80%8B%E8%BD%89%E7%A7%BB%E5%AD%B8%E7%BF%92%E6%A8%A1%E5%9E%8B.ipynb)
 * [轉移學習的練習](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/05-2.%20%E4%BD%9C%E6%A5%AD%E8%AA%AA%E6%98%8E_%E8%BD%89%E7%A7%BB%E5%AD%B8%E7%BF%92%E7%9A%84%E7%B7%B4%E7%BF%92%20(%E4%BB%A5%20CNN%20%E6%89%8B%E5%AF%AB%E8%BE%A8%E8%AD%98%E7%82%BA%E4%BE%8B).ipynb)
 ### 7.5 Batch Normalization層
-* [李宏毅 Batch Normalization](https://hackmd.io/@shaoeChen/B17hkzfp4?type=view) [slide](https://speech.ee.ntu.edu.tw/~hylee/ml/ml2021-course-data/normalization_v4.pdf) [Youtube](****)
+* [李宏毅 Batch Normalization](https://hackmd.io/@shaoeChen/B17hkzfp4?type=view)
+    * [slide](https://speech.ee.ntu.edu.tw/~hylee/ml/ml2021-course-data/normalization_v4.pdf)
+    *  [Youtube](https://www.youtube.com/watch?v=BZh1ltr5Rkg&t=789s)
 * [Batch Normalization](https://violin-tao.blogspot.com/2018/02/ml-batch-normalization.html)
 * [Batch Norm Explained Visually — How it works, and why neural networks need it](https://towardsdatascience.com/batch-norm-explained-visually-how-it-works-and-why-neural-networks-need-it-b18919692739)
 #### 如果我們能夠以某種方式標準化前一層的激活，那麼梯度下降在訓練過程中會更好地收斂。這正是 Batch Norm 層為我們所做的事情。
