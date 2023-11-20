@@ -106,6 +106,10 @@ VMware Compatibility: Version 10+
 ### [ubuntu setup](https://github.com/jumbokh/rpi_class/tree/master/lite_install)
 ### Tools Download
 * [LabelImg](https://github.com/HumanSignal/labelImg)
+### 動手學習深度學習
+* [官網](https://zh.d2l.ai/)
+* [安裝](https://zh.d2l.ai/chapter_installation/index.html)
+* [github](https://github.com/d2l-ai/d2l-zh)
 ### 參考網頁
 * [蔡炎龍老師MOOC](https://github.com/yenlung/Deep-Learning-MOOC)
 * [蔡炎龍老師 深度學習基礎](https://github.com/jumbokh/Deep-Learning-Basics)
