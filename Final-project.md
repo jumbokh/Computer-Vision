@@ -8,8 +8,8 @@
 ## Reference
 * [磁磚脫落偵測](https://drive.google.com/file/d/1Qv2YNyyUtLRX-4QX9j1e0dvVqiRYdEtv/view?usp=drive_link)
 * [Teachable Machine](https://teachablemachine.withgoogle.com/train/image):
-      * [Color Ball](https://github.com/jumbokh/Computer-Vision/blob/main/sources/ColorBall.tm)
-      * [明星臉](https://github.com/jumbokh/Computer-Vision/blob/main/sources/MyStar.tm)
-      * [蟲蟲辨識](https://github.com/jumbokh/Computer-Vision/blob/main/sources/bug.tm)
+     * [Color Ball](https://github.com/jumbokh/Computer-Vision/blob/main/sources/ColorBall.tm)
+     * [明星臉](https://github.com/jumbokh/Computer-Vision/blob/main/sources/MyStar.tm)
+     * [蟲蟲辨識](https://github.com/jumbokh/Computer-Vision/blob/main/sources/bug.tm)
 * [AMB82 mini – 即時串流 Edge AI 開發板](https://www.amebaiot.com/zh/amebapro2-amb82-mini-arduino-getting-started/)
   
