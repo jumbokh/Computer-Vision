@@ -6,6 +6,7 @@
 ### 3. 陳駿緯、楚忠霖、陳冠宇 -- 傳統儀表數據識別
 * [WE-I Plus 智慧儀錶辨識](https://www.ideas-hatch.com/evb_share_detail.jsp?id=70)
 ### 4. 石晉宇、陳奕齊、李孟哲、陳筠霈 -- 手寫數字辨識
+* [Kaggle: Digit Recognizer](https://www.kaggle.com/competitions/digit-recognizer/overview)
 ### 5. 葉祐宏、商博、吳柏毅 -- 智慧農業之芒果分類
 * [芒果分類](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/AIMango/mango-classification.ipynb)
 * [AI Go 芒果分類](https://github.com/jumbokh/Computer-Vision/tree/main/notebooks/AIMango)
