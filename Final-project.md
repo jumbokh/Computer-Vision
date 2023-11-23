@@ -1,5 +1,8 @@
 ## Teams
 ### 1. 黃揚程、鍾志煒 -- 隧道內壁分裂及滲水辨識
+```
+以拍攝所得之隧道內壁照片, 切割成片段, 辨識是否有裂縫或滲水, 並以紅線標示
+```
 * [滲水照片](https://drive.google.com/file/d/1IbN1UrODTZzOsNNImLieOPAN0faQBrX2/view?usp=drive_link)
 * [部分分析](https://drive.google.com/drive/folders/11YnRqki1cPVAfWvoQP4jFUEx5nI-fV5j?usp=drive_link)
 ### 2. 蕭宏宇、李笠瑋、蘇啟元 -- 人臉辨識
@@ -15,6 +18,9 @@
     * [資料二](https://drive.google.com/file/d/10VpEmE89I-_ChiRvPllDg7gLY4j9BgdO/view?usp=drive_link)
     * [資料三](https://drive.google.com/file/d/17k_A9mqIeYvGyq3bZF_RwQNWdwjYt_Pe/view?usp=drive_link)
 ### 6. 方緒南、許廷瑋 -- 彩色球辨識
+```
+以彩色乒乓球為物件, 辨識其顏色, 方法用(不限, 但不可用Teachable Machine): keras+TF , scikit-learn or pytorch
+```
 ## Reference
 * [Trainning](https://github.com/jumbokh/Computer-Vision/edit/main/Trainning.md)
 * [磁磚脫落偵測](https://drive.google.com/file/d/1Qv2YNyyUtLRX-4QX9j1e0dvVqiRYdEtv/view?usp=drive_link)
