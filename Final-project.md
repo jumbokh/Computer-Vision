@@ -21,6 +21,8 @@
 ```
 以彩色乒乓球為物件, 辨識其顏色, 方法用(不限, 但不可用Teachable Machine): keras+TF , scikit-learn or pytorch
 ```
+### 尚未組隊
+* 羅上哲、辜浡珅、林遠凱、柯宙呈
 ## Reference
 * [Trainning](https://github.com/jumbokh/Computer-Vision/edit/main/Trainning.md)
 * [磁磚脫落偵測](https://drive.google.com/file/d/1Qv2YNyyUtLRX-4QX9j1e0dvVqiRYdEtv/view?usp=drive_link)
