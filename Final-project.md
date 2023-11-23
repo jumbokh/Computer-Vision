@@ -1,6 +1,7 @@
 ## Teams
 ### 1. 黃揚程、鍾志煒 -- 隧道內壁分裂及滲水辨識
 * [滲水照片](https://drive.google.com/file/d/1IbN1UrODTZzOsNNImLieOPAN0faQBrX2/view?usp=drive_link)
+* [部分分析](https://drive.google.com/drive/folders/11YnRqki1cPVAfWvoQP4jFUEx5nI-fV5j?usp=drive_link)
 ### 2. 蕭宏宇、李笠瑋、蘇啟元 -- 人臉辨識
 ### 3. 陳駿緯、楚忠霖、陳冠宇 -- 傳統儀表數據識別
 ### 4. 石晉宇、陳奕齊、李孟哲、陳筠霈 -- 手寫數字辨識
