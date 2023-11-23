@@ -6,6 +6,12 @@
 ### 3. 陳駿緯、楚忠霖、陳冠宇 -- 傳統儀表數據識別
 ### 4. 石晉宇、陳奕齊、李孟哲、陳筠霈 -- 手寫數字辨識
 ### 5. 葉祐宏、商博、吳柏毅 -- 智慧農業之芒果分類
+* [芒果分類](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/AIMango/mango-classification.ipynb)
+* [AI Go 芒果分類](https://github.com/jumbokh/Computer-Vision/tree/main/notebooks/AIMango)
+* 共享資料:
+    * [資料一](https://drive.google.com/file/d/1pCZw19OGsa0lgLlW4NydO2iOcNIqEIPK/view?usp=drive_link)
+    * [資料二](https://drive.google.com/file/d/10VpEmE89I-_ChiRvPllDg7gLY4j9BgdO/view?usp=drive_link)
+    * [資料三](https://drive.google.com/file/d/17k_A9mqIeYvGyq3bZF_RwQNWdwjYt_Pe/view?usp=drive_link)
 ### 6. 方緒南、許廷瑋 -- 彩色球辨識
 ## Reference
 * [磁磚脫落偵測](https://drive.google.com/file/d/1Qv2YNyyUtLRX-4QX9j1e0dvVqiRYdEtv/view?usp=drive_link)
