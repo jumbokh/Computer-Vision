@@ -6,6 +6,7 @@
 * [滲水照片](https://drive.google.com/file/d/1IbN1UrODTZzOsNNImLieOPAN0faQBrX2/view?usp=drive_link)
 * [部分分析](https://drive.google.com/drive/folders/11YnRqki1cPVAfWvoQP4jFUEx5nI-fV5j?usp=drive_link)
 ### 2. 蕭宏宇、李笠瑋、蘇啟元 -- 人臉辨識
+* [深智DM2311範例](https://github.com/jumbokh/Computer-Vision/blob/main/docs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%8940%E4%BE%8B%E8%B5%84%E6%96%99.pdf)
 ### 3. 陳駿緯、楚忠霖、陳冠宇 -- 傳統儀表數據識別
 * [WE-I Plus 智慧儀錶辨識](https://www.ideas-hatch.com/evb_share_detail.jsp?id=70)
 ### 4. 石晉宇、陳奕齊、李孟哲、陳筠霈 -- 手寫數字辨識
