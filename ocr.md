@@ -15,3 +15,6 @@ pip install h5py tensorflow textblob
 ```
 * [09_14_ocr](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/09_14_OCR.ipynb)
 * [09_15](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/09_15_%E8%BB%8A%E7%89%8C%E8%BE%A8%E8%AD%98.ipynb)
+### opencv DM2201
+* [建立哈爾特徵分類器-車牌辨識](https://github.com/jumbokh/Computer-Vision/blob/main/docs/ch30%E5%BB%BA%E7%AB%8B%E5%93%88%E7%88%BE%E7%89%B9%E5%BE%B5%E5%88%86%E9%A1%9E%E5%99%A8-%E8%BB%8A%E7%89%8C%E8%BE%A8%E8%AD%98.pdf)
+* [車牌辨識](https://github.com/jumbokh/Computer-Vision/blob/main/docs/ch31%E8%BB%8A%E7%89%8C%E8%BE%A8%E8%AD%98.pdf)
