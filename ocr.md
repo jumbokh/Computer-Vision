@@ -1,6 +1,7 @@
 ### Reference: https://pyimagesearch.com/2021/08/16/installing-tesseract-pytesseract-and-python-ocr-packages-on-your-system/
 ```
 sudo apt install tesseract-ocr
+sudo apt install tesseract-ocr-eng tesseract-ocr-chi-tra
 tesseract -v
 workon cv2
 pip install numpy opencv-contrib-python
