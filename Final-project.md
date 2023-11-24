@@ -10,6 +10,8 @@
 ### 3. 陳駿緯、楚忠霖、陳冠宇 -- 傳統儀表數據識別
 * [WE-I Plus 智慧儀錶辨識](https://www.ideas-hatch.com/evb_share_detail.jsp?id=70)
 * [Yolov4 Train](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/YOLOv4_Tutorial.ipynb)
+* [介紹](https://github.com/jumbokh/Computer-Vision/blob/main/docs/HUB%208735_%E6%99%BA%E6%85%A7%E5%84%80%E9%8C%B6%E5%B7%A5%E6%A5%AD%E6%87%89%E7%94%A8_0825.pdf)
+* [用 HAAR 方式](https://github.com/jumbokh/Computer-Vision/blob/main/docs/ch30%E5%BB%BA%E7%AB%8B%E5%93%88%E7%88%BE%E7%89%B9%E5%BE%B5%E5%88%86%E9%A1%9E%E5%99%A8-%E8%BB%8A%E7%89%8C%E8%BE%A8%E8%AD%98.pdf)
 ### 4. 石晉宇、陳奕齊、李孟哲、陳筠霈 -- 手寫數字辨識
 * [Kaggle: Digit Recognizer](https://www.kaggle.com/competitions/digit-recognizer/overview)
 ### 5. 葉祐宏、商博、吳柏毅 -- 智慧農業之芒果分類
