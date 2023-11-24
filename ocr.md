@@ -1,4 +1,5 @@
 ### Reference: https://pyimagesearch.com/2021/08/16/installing-tesseract-pytesseract-and-python-ocr-packages-on-your-system/
+### https://medium.com/%E8%A9%A6%E8%91%97%E7%B4%80%E9%8C%84%E8%87%AA%E5%B7%B1/tesseract-%E5%9C%A8linux%E5%AE%89%E8%A3%9D-f8fb2c0d98e3
 ```
 sudo apt install tesseract-ocr
 sudo apt install tesseract-ocr-eng tesseract-ocr-chi-tra
