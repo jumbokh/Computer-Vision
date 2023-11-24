@@ -9,6 +9,7 @@
 * [深智DM2311範例](https://github.com/jumbokh/Computer-Vision/blob/main/docs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%8940%E4%BE%8B%E8%B5%84%E6%96%99.pdf)
 ### 3. 陳駿緯、楚忠霖、陳冠宇 -- 傳統儀表數據識別
 * [WE-I Plus 智慧儀錶辨識](https://www.ideas-hatch.com/evb_share_detail.jsp?id=70)
+* [Yolov4 Train](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/YOLOv4_Tutorial.ipynb)
 ### 4. 石晉宇、陳奕齊、李孟哲、陳筠霈 -- 手寫數字辨識
 * [Kaggle: Digit Recognizer](https://www.kaggle.com/competitions/digit-recognizer/overview)
 ### 5. 葉祐宏、商博、吳柏毅 -- 智慧農業之芒果分類
