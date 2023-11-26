@@ -5,3 +5,6 @@
 * ![jumbo-p3](https://github.com/jumbokh/Computer-Vision/blob/main/images/AnimeP3.png)
 * [AnimaeGAN.js source](https://github.com/TonyLianLong/AnimeGAN.js)
 * [StyleGAN](https://gwern.net/face)
+### Reference
+* [生成式對抗網路 (Generative Adversarial Network, GAN) (一) – 基本概念介紹](https://www.youtube.com/watch?v=4OWp0wDu6Xw)
+     [slide](https://github.com/jumbokh/Computer-Vision/blob/main/docs/gan_v10.pdf)
