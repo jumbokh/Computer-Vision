@@ -4,6 +4,13 @@
 * [冒險34_簡單找表示向量的方法_Autoencoder](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/%E5%86%92%E9%9A%AA34_%E7%B0%A1%E5%96%AE%E6%89%BE%E8%A1%A8%E7%A4%BA%E5%90%91%E9%87%8F%E7%9A%84%E6%96%B9%E6%B3%95_Autoencoder.ipynb)
 * [冒險37_FaceNet_和特徵向量的尋找](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/%E5%86%92%E9%9A%AA37_FaceNet_%E5%92%8C%E7%89%B9%E5%BE%B5%E5%90%91%E9%87%8F%E7%9A%84%E5%B0%8B%E6%89%BE.ipynb)
 * [冒險38_用_DeepFace_來做人臉辨識](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/%E5%86%92%E9%9A%AA38_%E7%94%A8_DeepFace_%E4%BE%86%E5%81%9A%E4%BA%BA%E8%87%89%E8%BE%A8%E8%AD%98.ipynb)
+### 
+* [實作DCGAN演算法，產生手寫阿拉伯數字](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/10_01_DCGAN_MNIST.ipynb)
+* [實作DCGAN演算法，產生名人臉部](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/10_02_DCGAN_Face.ipynb)
+* [實作PGGAN演算法，產生名人臉部](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/10_03_PGGAN_Face.ipynb)
+* [實作cGAN演算法，產生女士的十項配件(Fashion MNIST)](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/10_04_CGAN_FashionMNIST.ipynb)
+* [實作 Pix2Pix GAN 演算法](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/10_05_%20Pix2Pix.ipynb)
+* [實作 CycleGAN 演算法](https://github.com/jumbokh/Computer-Vision/edit/main/GAN.md)
 * [Adversarial_Video_Generation](https://github.com/dyelax/Adversarial_Video_Generation)
 * [AnimeGAN](https://github.com/TachibanaYoshino/AnimeGAN) ** [animegan完美复现](https://www.zhihu.com/search?type=content&q=Anime%20Face%20Generation)
 * [upload and try](https://animegan.js.org/)
