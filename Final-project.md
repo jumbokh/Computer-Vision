@@ -7,6 +7,7 @@
 * [部分分析](https://drive.google.com/drive/folders/11YnRqki1cPVAfWvoQP4jFUEx5nI-fV5j?usp=drive_link)
 ### 2. 蕭宏宇、李笠瑋、蘇啟元 -- 人臉辨識
 * [深智DM2311範例](https://github.com/jumbokh/Computer-Vision/blob/main/docs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%8940%E4%BE%8B%E8%B5%84%E6%96%99.pdf)
+* [opencv ppt](https://github.com/jumbokh/Computer-Vision/blob/main/docs/%E7%AC%AC23%E7%AB%A0%E4%BA%BA%E8%87%89%E8%AD%98%E5%88%A5.pptx)
 ### 3. 陳駿緯、楚忠霖、陳冠宇 -- 傳統儀表數據識別
 * [WE-I Plus 智慧儀錶辨識](https://www.ideas-hatch.com/evb_share_detail.jsp?id=70)
 * [Yolov4 Train](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/YOLOv4_Tutorial.ipynb)
