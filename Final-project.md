@@ -28,8 +28,10 @@
 ```
 以彩色乒乓球為物件, 辨識其顏色, 方法用(不限, 但不可用Teachable Machine): keras+TF , scikit-learn or pytorch
 ```
+### 7. 羅上哲、辜浡珅 -- 明星臉
+
 ### 尚未組隊
-* 羅上哲、辜浡珅、林遠凱、柯宙呈
+* 、林遠凱、柯宙呈
 ### report sample
 * [HW1 report](https://github.com/jumbokh/Computer-Vision/blob/main/report.md)
 ## Reference
