@@ -43,6 +43,7 @@ rst=cv2.resize(img,size)
 print("img.shape=",img.shape)
 print("rst.shape=",rst.shape)
 ```
+### [Python 與 OpenCV 裁切圖片教學](https://blog.gtwang.org/programming/how-to-crop-an-image-in-opencv-using-python/)
 ```
 週次 3-4：YOLO 物件偵測
 物件偵測概述與挑戰
