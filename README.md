@@ -1,3 +1,26 @@
+```
+COCOmAP列代表了在COCO2017资料集下的平均精確率mAP(mcan
+Average Precision平均精雄率平均值) 所有類别的平均精確率(Average
+Precision,AP)的平均·它代表了一個模型的綜合辨議能力
+mAP的計算方法一般有4步。
+
+第1步 测量一幅影像中一個待檢測目標類别的邊框的有效性,這裡使用交
+並比(IntersectionOver Union·1OU作為矩形框有效性的評價函式·IU用於
+量预測邊界框與實際邊界框的重合度預測邊界框值與實際邊界框值越接近·10U
+
+第2步 選擇一幅影像中所有有效的矩形框·統計分類預測是否正確。在一
+张圖片的全部有效預中預測正的分類數量用A_IMG表示·該影像中實際存
+在目標的數量用B_IMG表示·A_IMG除B_IMG 就該影像的預精確率
+
+第3步如果將一張圖片擴展到全部影像,那麼正確預的數量用A_CLS表
+示 实際目標數量用B_CLS表示·将A_CLS除以B_CLS是該的辨精確
+
+第4步 將一類物件偵測擴展到多類物件偵测,將多類物件偵測的平均精確
+率再進行平均就可以獲得平均精確率平均值(mAP)
+
+開發者可以根據任務目標的不同,選擇做矩形框辨識、邊界辨識還是關鍵點
+辨識·根據Speed和mAp在速度和精確率之間進行權衡,選擇適合自己的模型
+```
 # [HW1: DeadLine 2023/10/30](https://github.com/jumbokh/Computer-Vision/blob/main/HomeWork1.md)
 ### [labelImg install](https://livezingy.com/install-labelimg-on-win10-python3-6/)
 ### [labelImg安裝及使用](https://hackmd.io/@osense-rd-public/H1ekDPqBt)
