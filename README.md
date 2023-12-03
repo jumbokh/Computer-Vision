@@ -24,6 +24,7 @@ mAP的計算方法一般有4步。
 辨識·根據Speed和mAp在速度和精確率之間進行權衡,選擇適合自己的模型
 ```
 ### [Trainning](https://github.com/jumbokh/Computer-Vision/blob/main/Trainning.md)
+### [YOLO5 Docker](https://github.com/jumbokh/Computer-Vision/blob/main/yolov5-docker.md)
 # [HW1: DeadLine 2023/10/30](https://github.com/jumbokh/Computer-Vision/blob/main/HomeWork1.md)
 ### [labelImg install](https://livezingy.com/install-labelimg-on-win10-python3-6/)
 ### [labelImg安裝及使用](https://hackmd.io/@osense-rd-public/H1ekDPqBt)
