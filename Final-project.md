@@ -42,4 +42,8 @@
      * [明星臉](https://github.com/jumbokh/Computer-Vision/blob/main/sources/MyStar.tm)
      * [蟲蟲辨識](https://github.com/jumbokh/Computer-Vision/blob/main/sources/bug.tm)
 * [AMB82 mini – 即時串流 Edge AI 開發板](https://www.amebaiot.com/zh/amebapro2-amb82-mini-arduino-getting-started/)
-  
+## code
+* [二值化](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/Image_threshold.ipynb)
+* [Sliding](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/08_01_Sliding_Window_And_Image_Pyramid.ipynb)
+* [裁切](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/crop_image.ipynb)
+* [reSize image](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/resize_image.ipynb)
