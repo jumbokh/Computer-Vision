@@ -3,6 +3,7 @@
 ```
 以拍攝所得之隧道內壁照片, 切割成片段, 辨識是否有裂縫或滲水, 並以紅線標示
 ```
+* [picture](https://drive.google.com/file/d/18q0CEiLiyk022l9xQ77wGUEGIjNTyhmw/view?usp=drive_link)
 * [滲水照片](https://drive.google.com/file/d/1IbN1UrODTZzOsNNImLieOPAN0faQBrX2/view?usp=drive_link)
 * [部分分析](https://drive.google.com/drive/folders/11YnRqki1cPVAfWvoQP4jFUEx5nI-fV5j?usp=drive_link)
 ### 2. 蕭宏宇、李笠瑋、蘇啟元 -- 人臉辨識
