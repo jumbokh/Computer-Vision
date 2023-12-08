@@ -43,6 +43,9 @@
      * [明星臉](https://github.com/jumbokh/Computer-Vision/blob/main/sources/MyStar.tm)
      * [蟲蟲辨識](https://github.com/jumbokh/Computer-Vision/blob/main/sources/bug.tm)
 * [AMB82 mini – 即時串流 Edge AI 開發板](https://www.amebaiot.com/zh/amebapro2-amb82-mini-arduino-getting-started/)
+* [Using Haar Cascade for Object Detection](https://machinelearningmastery.com/using-haar-cascade-for-object-detection/?utm_source=drip&utm_medium=email&utm_campaign=Using+Haar+cascade+for+object+detection&utm_content=Using+Haar+cascade+for+object+detection)
+* [Random Forest for Image Classification Using OpenCV](https://machinelearningmastery.com/random-forest-for-image-classification-using-opencv/?utm_source=drip&utm_medium=email&utm_campaign=Using+Haar+cascade+for+object+detection&utm_content=Using+Haar+cascade+for+object+detection)
+* [Normal Bayes Classifier for Image Segmentation Using OpenCV](https://machinelearningmastery.com/normal-bayes-classifier-for-image-segmentation-using-opencv/?utm_source=drip&utm_medium=email&utm_campaign=Using+Haar+cascade+for+object+detection&utm_content=Using+Haar+cascade+for+object+detection)
 ## code
 * [二值化](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/Image_threshold.ipynb)
 * [Sliding](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/08_01_Sliding_Window_And_Image_Pyramid.ipynb)
