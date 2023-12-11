@@ -4,7 +4,7 @@
 * [bing](bing.com)
 * [image creater](https://www.bing.com/images/create?toWww=1&redig=CBDD9F755B0A4727828A0650A4EC5E66)
 ```
-小老鼠戴廚師帽站在鉆板上拿著芹菜
+小老鼠戴廚師帽站在砧板上拿著芹菜
 ```
 * ![bing mouse-1](https://github.com/jumbokh/Computer-Vision/blob/main/images/bing-mouse-1.jpg)
 * ![bing mouse-2](https://github.com/jumbokh/Computer-Vision/blob/main/images/bing-mouse-2.jpg)
