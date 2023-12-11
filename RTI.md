@@ -9,3 +9,7 @@
 ### Dataset
 * [data 1](https://drive.google.com/file/d/1LG5gu3kpUpZiXByTqi_iscFLustXj-Wn/view?usp=drive_link)
 * [data 2](https://drive.google.com/file/d/1-xoVaH36tArQc662ZAa1QKa-57-v3MFU/view?usp=drive_link)
+### 圖
+* ![stone-1](https://github.com/jumbokh/Computer-Vision/blob/main/images/fish1.png)
+* ![stone-2](https://github.com/jumbokh/Computer-Vision/blob/main/images/fish2.png)
+* ![Builder](https://github.com/jumbokh/Computer-Vision/blob/main/images/RTIBuilder.png)
