@@ -57,3 +57,4 @@ bad proportions, extra limbs, disfigured
 * [蔡炎龍老師FB分享](https://www.facebook.com/photo/?fbid=10226664389688417&set=a.1213970741922)
 * [陳國益老師FB社群 -- AI生成技術研究與探索](https://www.facebook.com/groups/211189588237586)
 * [Leonardo.ai Tutorial](https://www.youtube.com/watch?v=KKQDtBLla08)
+* [AIGC簡報](https://drive.google.com/file/d/1-scT9nzOYmMje9aSOr7PEz26ULkFyFVD/view?usp=drive_link)
