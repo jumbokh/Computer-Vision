@@ -52,3 +52,5 @@ bad proportions, extra limbs, disfigured
 * ![塗鴉](https://github.com/jumbokh/Computer-Vision/blob/main/images/HandDraw.png)
 ### Image Guidance
 ### Prompt Generation
+## 書籍參考
+* [陳國益 -- AI生成技術](https://sites.google.com/view/bookai/%E5%BF%AB%E9%80%9F%E7%B4%A2%E5%BC%95?authuser=0)
