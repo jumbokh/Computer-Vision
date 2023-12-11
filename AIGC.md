@@ -4,6 +4,13 @@
 * [bing](bing.com)
 * [image creater](https://www.bing.com/images/create?toWww=1&redig=CBDD9F755B0A4727828A0650A4EC5E66)
 ```
+小老鼠戴廚師帽站在鉆板上拿著芹菜
+```
+* ![bing mouse-1](https://github.com/jumbokh/Computer-Vision/blob/main/images/bing-mouse-1.jpg)
+* ![bing mouse-2](https://github.com/jumbokh/Computer-Vision/blob/main/images/bing-mouse-2.jpg)
+* ![bing mouse 3](https://github.com/jumbokh/Computer-Vision/blob/main/images/bing-mouse-3.jpg)
+* ![bing mouse-4](https://github.com/jumbokh/Computer-Vision/blob/main/images/bing-mouse-4.jpg)
+```
 高閣橫秀氣，清幽並在君。檐飛宛溪水，窗落敬亭雲。 猿嘯風中斷，漁歌月裏聞。閒隨白鷗去，沙上自爲羣。
 ```
 * [古讀詩詞網](https://fanti.dugushici.com/)
