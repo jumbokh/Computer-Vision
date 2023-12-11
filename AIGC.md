@@ -37,9 +37,8 @@ bad proportions, extra limbs, disfigured
 * ![girl coffee-2](https://github.com/jumbokh/Computer-Vision/blob/main/images/Leonardo-coffee-2.jpg)
 * ![girl coffee-3](https://github.com/jumbokh/Computer-Vision/blob/main/images/Leonardo-coffee-3.jpg)
 * ![girl coffee-4](https://github.com/jumbokh/Computer-Vision/blob/main/images/Leonardo-coffee-4.jpg)
+### 塗鴉
 * ![warrior](https://github.com/jumbokh/Computer-Vision/blob/main/images/Warrior.jpg)
 * ![塗鴉](https://github.com/jumbokh/Computer-Vision/blob/main/images/HandDraw.png)
-### 塗鴉
-*
 ### Image Guidance
 ### Prompt Generation
