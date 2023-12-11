@@ -6,6 +6,7 @@
 ```
 高閣橫秀氣，清幽並在君。檐飛宛溪水，窗落敬亭雲。 猿嘯風中斷，漁歌月裏聞。閒隨白鷗去，沙上自爲羣。
 ```
+* [古讀詩詞網](https://fanti.dugushici.com/)
 * ![bing image creater](https://github.com/jumbokh/Computer-Vision/blob/main/images/bing-img1.png)
 * ![bing image full](https://github.com/jumbokh/Computer-Vision/blob/main/images/bin-imgfull.jpg)
 * ![ancient](https://github.com/jumbokh/Computer-Vision/blob/main/images/ancient.png)
