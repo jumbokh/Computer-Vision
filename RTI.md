@@ -1,0 +1,11 @@
+### 反射變換成像 (RTI)
+* [反射變換成像](https://culturalheritageimaging.org/Technologies/RTI/index.html)
+* [Vimeo: 文化遺產成像](https://vimeo.com/culturalheritage)
+* [Vimeo: 大理石碑](https://vimeo.com/33252302)
+* [Vimeo: 插圖手稿](https://vimeo.com/30213656)
+### [Digital Lab Notebook](https://culturalheritageimaging.org/Technologies/Digital_Lab_Notebook/index.html)
+* [Building RTIs with RelightLab](https://vimeo.com/752733616)
+* [Relight github](https://github.com/cnr-isti-vclab/relight/releases)
+### Dataset
+* [data 1](https://drive.google.com/file/d/1LG5gu3kpUpZiXByTqi_iscFLustXj-Wn/view?usp=drive_link)
+* [data 2](https://drive.google.com/file/d/1-xoVaH36tArQc662ZAa1QKa-57-v3MFU/view?usp=drive_link)
