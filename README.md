@@ -1,4 +1,5 @@
 ### [RTI](https://github.com/jumbokh/Computer-Vision/blob/main/RTI.md)
+### [AIGC](https://github.com/jumbokh/Computer-Vision/blob/main/AIGC.md)
 ### [AMB82 mini](https://github.com/jumbokh/Computer-Vision/blob/main/docs/AMB82%20mini.pdf)
 ### [Final project](https://github.com/jumbokh/Computer-Vision/blob/main/Final-project.md)
 ### [資料集介紹](https://github.com/jumbokh/Computer-Vision/blob/main/dataset.md)
