@@ -51,3 +51,4 @@
 * [Sliding](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/08_01_Sliding_Window_And_Image_Pyramid.ipynb)
 * [裁切](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/crop_image.ipynb)
 * [reSize image](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/resize_image.ipynb)
+* [去背景](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/removeImgBack.ipynb)
