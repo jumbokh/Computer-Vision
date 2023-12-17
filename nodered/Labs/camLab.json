@@ -1,0 +1,280 @@
+[
+    {
+        "id": "1039bfaeb29a9c1e",
+        "type": "tab",
+        "label": "camLab",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8ebfda5.eff8628",
+        "type": "file in",
+        "z": "1039bfaeb29a9c1e",
+        "name": "",
+        "filename": "/home/jumbo/.node-red/Data/koala.jpg",
+        "filenameType": "str",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 410,
+        "y": 380,
+        "wires": [
+            [
+                "96811d4b.09333",
+                "6d6270aec76ebaf4"
+            ]
+        ]
+    },
+    {
+        "id": "96811d4b.09333",
+        "type": "image",
+        "z": "1039bfaeb29a9c1e",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": false,
+        "active": true,
+        "pass": false,
+        "outputs": 0,
+        "x": 1020,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "298991fc.92724e",
+        "type": "inject",
+        "z": "1039bfaeb29a9c1e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 300,
+        "wires": [
+            [
+                "8ebfda5.eff8628"
+            ]
+        ]
+    },
+    {
+        "id": "6d6270aec76ebaf4",
+        "type": "mqtt out",
+        "z": "1039bfaeb29a9c1e",
+        "name": "push image",
+        "topic": "home/node/img",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "874b49e56ec98edb",
+        "x": 770,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "dd1bc76d9c0fc90a",
+        "type": "mqtt in",
+        "z": "1039bfaeb29a9c1e",
+        "name": "get image",
+        "topic": "home/node/img",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "874b49e56ec98edb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 500,
+        "wires": [
+            [
+                "4fa439d4929255a8"
+            ]
+        ]
+    },
+    {
+        "id": "4fa439d4929255a8",
+        "type": "image",
+        "z": "1039bfaeb29a9c1e",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": false,
+        "active": true,
+        "pass": false,
+        "outputs": 0,
+        "x": 520,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "10795ce6dea168f0",
+        "type": "usbcamera",
+        "z": "1039bfaeb29a9c1e",
+        "filemode": "0",
+        "filename": "/home/jumbo/.node-red/Data/image01.jpg",
+        "filedefpath": "1",
+        "filepath": "",
+        "fileformat": "jpeg",
+        "resolution": "1",
+        "name": "",
+        "x": 310,
+        "y": 60,
+        "wires": [
+            [
+                "03908817fb639f3c",
+                "db7f4ac53d950bda"
+            ]
+        ]
+    },
+    {
+        "id": "9f09a5977cd6081f",
+        "type": "inject",
+        "z": "1039bfaeb29a9c1e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 120,
+        "wires": [
+            [
+                "10795ce6dea168f0"
+            ]
+        ]
+    },
+    {
+        "id": "03908817fb639f3c",
+        "type": "debug",
+        "z": "1039bfaeb29a9c1e",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "db7f4ac53d950bda",
+        "type": "file in",
+        "z": "1039bfaeb29a9c1e",
+        "name": "",
+        "filename": "/home/jumbo/Pictures/image01.jpg",
+        "filenameType": "str",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 520,
+        "y": 220,
+        "wires": [
+            [
+                "6d6270aec76ebaf4",
+                "14f6b8d8316ae506"
+            ]
+        ]
+    },
+    {
+        "id": "fd71310da0c710f1",
+        "type": "image",
+        "z": "1039bfaeb29a9c1e",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": false,
+        "active": true,
+        "pass": false,
+        "outputs": 0,
+        "x": 1080,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "14f6b8d8316ae506",
+        "type": "base64",
+        "z": "1039bfaeb29a9c1e",
+        "name": "",
+        "action": "",
+        "property": "payload",
+        "x": 840,
+        "y": 220,
+        "wires": [
+            [
+                "fd71310da0c710f1"
+            ]
+        ]
+    },
+    {
+        "id": "874b49e56ec98edb",
+        "type": "mqtt-broker",
+        "name": "MQTTGO",
+        "broker": "broker.MQTTGO.io",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]

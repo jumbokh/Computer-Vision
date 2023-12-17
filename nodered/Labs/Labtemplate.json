@@ -1,0 +1,254 @@
+[
+    {
+        "id": "6391216b314a0e4c",
+        "type": "tab",
+        "label": "LabTemplate",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bf0d63e1d73202b8",
+        "type": "exec",
+        "z": "6391216b314a0e4c",
+        "command": "/home/jumbo/notebooks/webcam/webcam.sh",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 250,
+        "y": 260,
+        "wires": [
+            [
+                "30798eb1a66e7ef4",
+                "16c034b222f88cf9"
+            ],
+            [
+                "9a82bb82b59fa71e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "884216cdb715382a",
+        "type": "inject",
+        "z": "6391216b314a0e4c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "bf0d63e1d73202b8"
+            ]
+        ]
+    },
+    {
+        "id": "30798eb1a66e7ef4",
+        "type": "debug",
+        "z": "6391216b314a0e4c",
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "68fc8cb4f1cefed5",
+        "type": "image",
+        "z": "6391216b314a0e4c",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": false,
+        "active": true,
+        "pass": false,
+        "outputs": 0,
+        "x": 940,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "9a82bb82b59fa71e",
+        "type": "debug",
+        "z": "6391216b314a0e4c",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "16c034b222f88cf9",
+        "type": "function",
+        "z": "6391216b314a0e4c",
+        "name": "filepath",
+        "func": "// @ts-nocheck\nvar s1='/home/jumbo/notebooks/webcam/';\nmsg.payload=s1+msg.payload;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 260,
+        "wires": [
+            [
+                "5110ef3e44d71b0d",
+                "ca5ca74baa1d83bc"
+            ]
+        ]
+    },
+    {
+        "id": "5110ef3e44d71b0d",
+        "type": "debug",
+        "z": "6391216b314a0e4c",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "ca5ca74baa1d83bc",
+        "type": "file in",
+        "z": "6391216b314a0e4c",
+        "name": "",
+        "filename": "payload",
+        "filenameType": "msg",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 740,
+        "y": 260,
+        "wires": [
+            [
+                "68fc8cb4f1cefed5",
+                "da3ebf61e1fcf8d6"
+            ]
+        ]
+    },
+    {
+        "id": "0f4c7a8ca0705716",
+        "type": "ui_button",
+        "z": "6391216b314a0e4c",
+        "name": "",
+        "group": "5bddc39c.8a930c",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 400,
+        "wires": [
+            [
+                "bf0d63e1d73202b8"
+            ]
+        ]
+    },
+    {
+        "id": "da3ebf61e1fcf8d6",
+        "type": "ui_template",
+        "z": "6391216b314a0e4c",
+        "group": "5bddc39c.8a930c",
+        "name": "",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 920,
+        "y": 200,
+        "wires": [
+            [
+                "5dc24831d8ee384a"
+            ]
+        ]
+    },
+    {
+        "id": "5dc24831d8ee384a",
+        "type": "debug",
+        "z": "6391216b314a0e4c",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1280,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "5bddc39c.8a930c",
+        "type": "ui_group",
+        "name": "Image Caption Generator",
+        "tab": "f099e653.e7d1a8",
+        "order": 1,
+        "disp": true,
+        "width": "14",
+        "collapse": false
+    },
+    {
+        "id": "f099e653.e7d1a8",
+        "type": "ui_tab",
+        "name": "MAX Image Caption Generator",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

@@ -1,0 +1,193 @@
+[
+    {
+        "id": "2a219103cd6ff1f6",
+        "type": "tab",
+        "label": "Imageviewer",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "44411887f9948b63",
+        "type": "inject",
+        "z": "2a219103cd6ff1f6",
+        "name": "",
+        "props": [
+            {
+                "p": "filename",
+                "v": "/home/pi/group-people.jpg",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 150,
+        "y": 240,
+        "wires": [
+            [
+                "ec5d95068d9ff94c"
+            ]
+        ]
+    },
+    {
+        "id": "08021ad2838ae9e4",
+        "type": "mqtt out",
+        "z": "2a219103cd6ff1f6",
+        "name": "",
+        "topic": "pic_transfer",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "874b49e56ec98edb",
+        "x": 1050,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "203cf405f347774d",
+        "type": "mqtt in",
+        "z": "2a219103cd6ff1f6",
+        "name": "",
+        "topic": "pic_transfer",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "874b49e56ec98edb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 520,
+        "wires": [
+            [
+                "9ca4e1023fc0f20f",
+                "82bbdb7d57526ba2"
+            ]
+        ]
+    },
+    {
+        "id": "82bbdb7d57526ba2",
+        "type": "debug",
+        "z": "2a219103cd6ff1f6",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 410,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "9ca4e1023fc0f20f",
+        "type": "image viewer",
+        "z": "2a219103cd6ff1f6",
+        "name": "",
+        "width": "161",
+        "data": "payload",
+        "dataType": "msg",
+        "active": true,
+        "x": 390,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1bbd9e2d2374d1be",
+        "type": "base64",
+        "z": "2a219103cd6ff1f6",
+        "name": "",
+        "action": "",
+        "property": "payload",
+        "x": 820,
+        "y": 240,
+        "wires": [
+            [
+                "08021ad2838ae9e4",
+                "cc6292a2b1132760"
+            ]
+        ]
+    },
+    {
+        "id": "cc6292a2b1132760",
+        "type": "debug",
+        "z": "2a219103cd6ff1f6",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "ec5d95068d9ff94c",
+        "type": "file in",
+        "z": "2a219103cd6ff1f6",
+        "name": "",
+        "filename": "/home/jumbo/.node-red/Data/koala.jpg",
+        "filenameType": "str",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 450,
+        "y": 240,
+        "wires": [
+            [
+                "1bbd9e2d2374d1be"
+            ]
+        ]
+    },
+    {
+        "id": "874b49e56ec98edb",
+        "type": "mqtt-broker",
+        "name": "MQTTGO",
+        "broker": "broker.MQTTGO.io",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]

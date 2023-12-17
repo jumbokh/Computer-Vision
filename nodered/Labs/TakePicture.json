@@ -1,0 +1,408 @@
+[
+    {
+        "id": "c46bc2738184cfd0",
+        "type": "tab",
+        "label": "TakePicture",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "21ac7493c6e67f82",
+        "type": "function",
+        "z": "c46bc2738184cfd0",
+        "name": "take a picture",
+        "func": "if (msg.payload == 1) { \n    var encoding = \"jpg\"; \n    //var currTime = new Date().getTime();\n   //  var filename=\"picture1\";\n    // Use the current timestamp to ensure\n    // the picture filename is unique.\n   // var pictureFilename = \"/home/pi/Desktop/\" + filename + \".\" + encoding;\n     var picturename  = \"/home/jumbo/Desktop/picture1.\"+ encoding;\n    var opts = {\n        mode: \"photo\",\n        encoding: encoding,\n        quality: 10,\n        width: 250,\n        height: 250,\n        output: picturename ,\n        timeout: 1};\n\n    // Use the global RaspiCam to create a camera object.\n    var camera = new context.global.RaspiCam( opts ); \n\n    // Take a picture\n    var process_id = camera.start( opts ); \n\n    // Send the file name to the next node as a payload.\n    return {payload: JSON.stringify(\n        {picturename  : picturename }) };\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 555,
+        "y": 371,
+        "wires": [
+            [
+                "fb15c9f75ddb887e",
+                "afc81dc7905c9090"
+            ]
+        ]
+    },
+    {
+        "id": "b5bd8782b92173c9",
+        "type": "inject",
+        "z": "c46bc2738184cfd0",
+        "name": "send 1",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 236,
+        "y": 371,
+        "wires": [
+            [
+                "44fc574b3cd3fec4"
+            ]
+        ]
+    },
+    {
+        "id": "fb15c9f75ddb887e",
+        "type": "debug",
+        "z": "c46bc2738184cfd0",
+        "name": "take a picture message",
+        "active": true,
+        "console": "false",
+        "complete": "payload",
+        "x": 790,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "44fc574b3cd3fec4",
+        "type": "delay",
+        "z": "c46bc2738184cfd0",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "20",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 379,
+        "y": 371,
+        "wires": [
+            [
+                "21ac7493c6e67f82"
+            ]
+        ]
+    },
+    {
+        "id": "afc81dc7905c9090",
+        "type": "exec",
+        "z": "c46bc2738184cfd0",
+        "command": "curl -X POST -F \"images_file=@/home/jumbo/Desktop/Obama.jpg\" \"https://gateway-a.watsonplatform.net/visual-recognition/api/v3/detect_faces?api_key=c6ea9561d8d278793a61603ca795cd8bc7f48a0e&version=2016-05-20\"",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "",
+        "timer": "",
+        "winHide": false,
+        "name": "visual recognition",
+        "x": 526,
+        "y": 472,
+        "wires": [
+            [
+                "8771defb98e4b270",
+                "770b6f1d03cfd65e"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8771defb98e4b270",
+        "type": "debug",
+        "z": "c46bc2738184cfd0",
+        "name": "POST response",
+        "active": true,
+        "console": "false",
+        "complete": "payload",
+        "x": 750,
+        "y": 427,
+        "wires": []
+    },
+    {
+        "id": "b4b9a1ca86841af0",
+        "type": "inject",
+        "z": "c46bc2738184cfd0",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 302,
+        "y": 479,
+        "wires": [
+            [
+                "afc81dc7905c9090"
+            ]
+        ]
+    },
+    {
+        "id": "770b6f1d03cfd65e",
+        "type": "function",
+        "z": "c46bc2738184cfd0",
+        "name": "processing",
+        "func": "var jj=JSON.parse(msg.payload);\n\nvar content;\nvar faceinfo;\nvar max;\nvar min;\nvar gender;\n//context.global.facedata= { \"max\":max ,\"min\":min , \"gender\":gender};\n\nvar text=\"請重拍一張照片\";\ntry {\n content = jj.images[0];\n faceinfo=content.faces[0];\n max=content.faces[0].age.max;\n min=content.faces[0].age.min;\n gender=content.faces[0].gender.gender;  \n \n  if(gender==\"MALE\")\n   gender=\"男性\";\n  else\n   gender=\"女性\";  \n   \n   text=\"您是\"+gender+\" 年齡介於\"+min+\"歲與\"+max+\"歲之間\";\n}\ncatch(err) {\n}\n\n//t3=encodeURIComponent(text);\nmsg.payload=text;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 553,
+        "wires": [
+            [
+                "dbd96edea63023bb",
+                "092b816ccd109a80",
+                "1dc8c88df2068704"
+            ]
+        ]
+    },
+    {
+        "id": "dbd96edea63023bb",
+        "type": "debug",
+        "z": "c46bc2738184cfd0",
+        "name": "processing debug",
+        "active": true,
+        "console": "false",
+        "complete": "payload",
+        "x": 805,
+        "y": 553,
+        "wires": []
+    },
+    {
+        "id": "b9e51889c21ef6ed",
+        "type": "ui_button",
+        "z": "c46bc2738184cfd0",
+        "name": "",
+        "group": "f4a49ee6.74194",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Take a picture",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "",
+        "x": 200,
+        "y": 300,
+        "wires": [
+            [
+                "934324704815c56e",
+                "44fc574b3cd3fec4"
+            ]
+        ]
+    },
+    {
+        "id": "092b816ccd109a80",
+        "type": "ui_text",
+        "z": "c46bc2738184cfd0",
+        "group": "f4a49ee6.74194",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Result",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 768,
+        "y": 512,
+        "wires": []
+    },
+    {
+        "id": "1dc8c88df2068704",
+        "type": "ui_audio",
+        "z": "c46bc2738184cfd0",
+        "name": "",
+        "group": "f4a49ee6.74194",
+        "voice": "0",
+        "always": true,
+        "x": 779,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "934324704815c56e",
+        "type": "function",
+        "z": "c46bc2738184cfd0",
+        "name": "set num 20",
+        "func": "\ncontext.global.num=20;\n \n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 409,
+        "y": 295,
+        "wires": [
+            [
+                "3ee6a20e56c22332"
+            ]
+        ]
+    },
+    {
+        "id": "09d2632adce71c0c",
+        "type": "function",
+        "z": "c46bc2738184cfd0",
+        "name": "decrease 1",
+        "func": "\ncontext.global.num=context.global.num-1;\nmsg.payload=context.global.num;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 401,
+        "y": 109,
+        "wires": [
+            [
+                "5955912a91e8de73"
+            ]
+        ]
+    },
+    {
+        "id": "d89b7ed1b8eee3e1",
+        "type": "ui_template",
+        "z": "c46bc2738184cfd0",
+        "group": "f4a49ee6.74194",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 846,
+        "y": 293,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2b117ca321df7b4c",
+        "type": "delay",
+        "z": "c46bc2738184cfd0",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 478,
+        "y": 185,
+        "wires": [
+            [
+                "09d2632adce71c0c"
+            ]
+        ]
+    },
+    {
+        "id": "9dacca4a97d01f19",
+        "type": "function",
+        "z": "c46bc2738184cfd0",
+        "name": "ready",
+        "func": " if (msg.payload == 4) { \n    \nmsg.payload=\"要拍照囉\";\n \nreturn msg;\n     \n }\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 107,
+        "wires": [
+            [
+                "1e0c27722f984bc9"
+            ]
+        ]
+    },
+    {
+        "id": "1e0c27722f984bc9",
+        "type": "ui_audio",
+        "z": "c46bc2738184cfd0",
+        "name": "語音:要拍照囉",
+        "group": "f4a49ee6.74194",
+        "voice": "0",
+        "always": true,
+        "x": 838,
+        "y": 106,
+        "wires": []
+    },
+    {
+        "id": "5955912a91e8de73",
+        "type": "switch",
+        "z": "c46bc2738184cfd0",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "outputs": 2,
+        "x": 545,
+        "y": 109,
+        "wires": [
+            [
+                "3ee6a20e56c22332",
+                "9dacca4a97d01f19"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3ee6a20e56c22332",
+        "type": "function",
+        "z": "c46bc2738184cfd0",
+        "name": "show num",
+        "func": "msg.payload=context.global.num;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 665,
+        "y": 294,
+        "wires": [
+            [
+                "d89b7ed1b8eee3e1",
+                "2b117ca321df7b4c"
+            ]
+        ]
+    },
+    {
+        "id": "f4a49ee6.74194",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "96c86955.4db458",
+        "order": 1,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "96c86955.4db458",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard"
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "id": "b16879d82f2527c3",
+        "type": "tab",
+        "label": "imageLab1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4c1839c2.5c8e58",
+        "type": "inject",
+        "z": "b16879d82f2527c3",
+        "name": "",
+        "props": [
+            {
+                "p": "filename",
+                "v": "/home/pi/group-people.jpg",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 230,
+        "y": 320,
+        "wires": [
+            [
+                "86f72cc0.83a57"
+            ]
+        ]
+    },
+    {
+        "id": "86f72cc0.83a57",
+        "type": "file in",
+        "z": "b16879d82f2527c3",
+        "name": "",
+        "filename": "/home/jumbo/.node-red/Data/koala.jpg",
+        "filenameType": "str",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 500,
+        "y": 320,
+        "wires": [
+            [
+                "9252018.e1436"
+            ]
+        ]
+    },
+    {
+        "id": "9252018.e1436",
+        "type": "mqtt out",
+        "z": "b16879d82f2527c3",
+        "name": "",
+        "topic": "home/node/img",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "874b49e56ec98edb",
+        "x": 820,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "d332c3f.37f7c4",
+        "type": "mqtt in",
+        "z": "b16879d82f2527c3",
+        "name": "",
+        "topic": "home/node/img",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "874b49e56ec98edb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 560,
+        "y": 420,
+        "wires": [
+            [
+                "758902e3.c8907c",
+                "567efb67d00ac5e1"
+            ]
+        ]
+    },
+    {
+        "id": "758902e3.c8907c",
+        "type": "debug",
+        "z": "b16879d82f2527c3",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 350,
+        "wires": []
+    },
+    {
+        "id": "567efb67d00ac5e1",
+        "type": "image",
+        "z": "b16879d82f2527c3",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": false,
+        "active": true,
+        "pass": false,
+        "outputs": 0,
+        "x": 1060,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "874b49e56ec98edb",
+        "type": "mqtt-broker",
+        "name": "MQTTGO",
+        "broker": "broker.MQTTGO.io",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
