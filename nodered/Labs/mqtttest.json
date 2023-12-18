@@ -1,0 +1,300 @@
+[
+    {
+        "id": "c80f8e5835f4fba5",
+        "type": "tab",
+        "label": "mqtt test",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "488be2170f8a2108",
+        "type": "mqtt in",
+        "z": "c80f8e5835f4fba5",
+        "name": "mqtt in",
+        "topic": "hello",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "874b49e56ec98edb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 40,
+        "wires": [
+            [
+                "33547a840c77155b"
+            ]
+        ]
+    },
+    {
+        "id": "33547a840c77155b",
+        "type": "debug",
+        "z": "c80f8e5835f4fba5",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "cfc4ce32d55d25cb",
+        "type": "inject",
+        "z": "c80f8e5835f4fba5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "hello",
+        "payload": "test test",
+        "payloadType": "str",
+        "x": 170,
+        "y": 260,
+        "wires": [
+            [
+                "96cb551b4b97f38c"
+            ]
+        ]
+    },
+    {
+        "id": "96cb551b4b97f38c",
+        "type": "mqtt out",
+        "z": "c80f8e5835f4fba5",
+        "name": "mqtt out",
+        "topic": "",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "874b49e56ec98edb",
+        "x": 420,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "8224d6569a210ad9",
+        "type": "inject",
+        "z": "c80f8e5835f4fba5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "webcam/get",
+        "payload": "/home/jumbo/notebooks/webcam/webcam.sh",
+        "payloadType": "str",
+        "x": 190,
+        "y": 180,
+        "wires": [
+            [
+                "011deea74a7a3e1b"
+            ]
+        ]
+    },
+    {
+        "id": "eb5bbdaabe06cf5b",
+        "type": "mqtt in",
+        "z": "c80f8e5835f4fba5",
+        "name": "trigger",
+        "topic": "webcam/get",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "874b49e56ec98edb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 120,
+        "wires": [
+            [
+                "33547a840c77155b",
+                "011deea74a7a3e1b"
+            ]
+        ]
+    },
+    {
+        "id": "011deea74a7a3e1b",
+        "type": "exec",
+        "z": "c80f8e5835f4fba5",
+        "command": "bash",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "cmd",
+        "x": 410,
+        "y": 120,
+        "wires": [
+            [
+                "d3d020d05df46815"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "d3d020d05df46815",
+        "type": "function",
+        "z": "c80f8e5835f4fba5",
+        "name": "filepath",
+        "func": "// @ts-nocheck\nvar s1='/home/jumbo/notebooks/webcam/';\nmsg.payload=s1+msg.payload;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 100,
+        "wires": [
+            [
+                "27951d3287f76207"
+            ]
+        ]
+    },
+    {
+        "id": "27951d3287f76207",
+        "type": "file in",
+        "z": "c80f8e5835f4fba5",
+        "name": "",
+        "filename": "payload",
+        "filenameType": "msg",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 760,
+        "y": 100,
+        "wires": [
+            [
+                "4f7d8df552ef9c82"
+            ]
+        ]
+    },
+    {
+        "id": "4f7d8df552ef9c82",
+        "type": "image viewer",
+        "z": "c80f8e5835f4fba5",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "x": 750,
+        "y": 160,
+        "wires": [
+            [
+                "6fcbc9521dba0a51"
+            ]
+        ]
+    },
+    {
+        "id": "6fcbc9521dba0a51",
+        "type": "debug",
+        "z": "c80f8e5835f4fba5",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "aff11866661b633c",
+        "type": "inject",
+        "z": "c80f8e5835f4fba5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "webcam/get",
+        "payload": "/home/jumbo/notebooks/webcam/webcam.sh",
+        "payloadType": "str",
+        "x": 150,
+        "y": 340,
+        "wires": [
+            [
+                "96cb551b4b97f38c"
+            ]
+        ]
+    },
+    {
+        "id": "874b49e56ec98edb",
+        "type": "mqtt-broker",
+        "name": "myMQTT",
+        "broker": "127.0.0.1",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
