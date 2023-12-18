@@ -1,0 +1,40 @@
+[
+    {
+        "id": "58ee9d18.5e3a24",
+        "type": "ui_template",
+        "z": "ca313f395fcd84c0",
+        "group": "51bf0475.ddfd2c",
+        "name": "testing payload",
+        "order": 0,
+        "width": "6",
+        "height": "6",
+        "format": "<h3>Testing dynamic scripts with Dashboard 2.0</h3>\n{{msg.payload}}\n<script>\n    (function(scope) {\n        console.log('Position 1');\n        console.dir(scope);\n        console.log(scope.msg);\n        scope.$watch('msg.payload', function(data) {\n            console.log('Position 2');\n            console.dir(data);\n        });\n    })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 480,
+        "y": 200,
+        "wires": [
+            [
+                "3bf99da6.2ab802"
+            ]
+        ]
+    },
+    {
+        "id": "51bf0475.ddfd2c",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "279d8078.dcf29",
+        "order": 2,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "279d8078.dcf29",
+        "type": "ui_tab",
+        "z": "ca313f395fcd84c0",
+        "name": "New Test",
+        "icon": "dashboard"
+    }
+]
