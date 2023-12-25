@@ -1,3 +1,4 @@
+### [上課材料](https://drive.google.com/drive/folders/109zWK_7uKae1ZxRnk_uVnki9Hp88AYEv?usp=drive_link)
 ### Step1 建置 darknet 環境
 * [colab darknet](https://github.com/jumbokh/Computer-Vision/blob/main/notebooks/tiny/01_%E5%BB%BA%E7%AB%8BDarknet%E7%B6%B2%E8%B7%AF.ipynb)
 ### Step2 Labeling data
