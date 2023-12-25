@@ -3,6 +3,7 @@
 ### Step2 Labeling data
 * ![bread](https://github.com/jumbokh/Computer-Vision/blob/main/images/1.JPG)
 ### https://app.roboflow.com/jumbokh
+* ![bread label](https://github.com/jumbokh/Computer-Vision/blob/main/images/LabelRobotflow.JPG)
 ### Org Data: 下載：twgo.io/xbiei
 ###  Download: Bread.v2i.darknet.zip
 ### step3 資料預處理
