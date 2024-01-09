@@ -1,3 +1,4 @@
+### [MediaPipe ](https://steam.oxxostudio.tw/category/python/ai/ai-mediapipe-2023.html)
 ### [圖像識別](https://github.com/jumbokh/Computer-Vision/blob/main/docs/%E7%AC%AC8%E7%AB%A0_%E5%9C%96%E5%83%8F%E8%AD%98%E5%88%A5.pdf)
 ### [深度學習](https://github.com/jumbokh/Computer-Vision/blob/main/docs/%E7%AC%AC11%E7%AB%A0_%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92.pdf)
 ### [Aiot Windwows](https://blog.cavedu.com/2018/09/28/general_env_setup_anaconda_tensorflow_keras_opencv/)
